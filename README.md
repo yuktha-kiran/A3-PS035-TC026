@@ -12,7 +12,7 @@ This repository will contain the code and resources for the AIORI-3 hackathon th
 
 **Video Presentation:** [Watch our team introduction and project presentation](https://youtu.be/FABaUDOUCnQ)
 
-**Video Demonstration:** [Live Demonstration] (https://youtu.be/EXBcSTZXVTs)
+**Video Demonstration:** Live Demonstration https://youtu.be/EXBcSTZXVTs
 
 ## Run the TRACE dashboard
 
