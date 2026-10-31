@@ -1,0 +1,3001 @@
+fault,nodes,links,latency_ms,packet_loss_pct,connectivity,firewall_status,application_status
+Normal,5,5,30,0.11,Reachable,Allowed,Healthy
+Normal,5,5,18,0.24,Reachable,Allowed,Healthy
+Normal,5,5,14,0.74,Reachable,Allowed,Healthy
+Normal,5,5,27,0.09,Reachable,Allowed,Healthy
+Normal,5,5,23,0.03,Reachable,Allowed,Healthy
+Normal,5,5,12,0.22,Reachable,Allowed,Healthy
+Normal,5,5,26,0.6,Reachable,Allowed,Healthy
+Normal,5,5,27,0.2,Reachable,Allowed,Healthy
+Normal,5,5,30,0.7,Reachable,Allowed,Healthy
+Normal,5,5,23,0.22,Reachable,Allowed,Healthy
+Normal,5,5,28,0.28,Reachable,Allowed,Healthy
+Normal,5,5,10,0.76,Reachable,Allowed,Healthy
+Normal,5,5,15,0.7,Reachable,Allowed,Healthy
+Normal,5,5,20,0.28,Reachable,Allowed,Healthy
+Normal,5,5,16,0.96,Reachable,Allowed,Healthy
+Normal,5,5,20,0.1,Reachable,Allowed,Healthy
+Normal,5,5,22,0.1,Reachable,Allowed,Healthy
+Normal,5,5,21,0.6,Reachable,Allowed,Healthy
+Normal,5,5,11,0.73,Reachable,Allowed,Healthy
+Normal,5,5,27,0.12,Reachable,Allowed,Healthy
+Normal,5,5,22,0.08,Reachable,Allowed,Healthy
+Normal,5,5,19,0.83,Reachable,Allowed,Healthy
+Normal,5,5,29,0.89,Reachable,Allowed,Healthy
+Normal,5,5,21,0.58,Reachable,Allowed,Healthy
+Normal,5,5,12,0.05,Reachable,Allowed,Healthy
+Normal,5,5,17,0.77,Reachable,Allowed,Healthy
+Normal,5,5,12,0.86,Reachable,Allowed,Healthy
+Normal,5,5,13,0.38,Reachable,Allowed,Healthy
+Normal,5,5,24,0.64,Reachable,Allowed,Healthy
+Normal,5,5,21,0.16,Reachable,Allowed,Healthy
+Normal,5,5,21,0.21,Reachable,Allowed,Healthy
+Normal,5,5,18,0.7,Reachable,Allowed,Healthy
+Normal,5,5,30,0.07,Reachable,Allowed,Healthy
+Normal,5,5,30,0.17,Reachable,Allowed,Healthy
+Normal,5,5,17,0.16,Reachable,Allowed,Healthy
+Normal,5,5,22,0.27,Reachable,Allowed,Healthy
+Normal,5,5,30,0.69,Reachable,Allowed,Healthy
+Normal,5,5,17,0.68,Reachable,Allowed,Healthy
+Normal,5,5,11,0.23,Reachable,Allowed,Healthy
+Normal,5,5,11,0.81,Reachable,Allowed,Healthy
+Normal,5,5,22,0.27,Reachable,Allowed,Healthy
+Normal,5,5,16,0.91,Reachable,Allowed,Healthy
+Normal,5,5,28,0.88,Reachable,Allowed,Healthy
+Normal,5,5,20,0.21,Reachable,Allowed,Healthy
+Normal,5,5,25,0.4,Reachable,Allowed,Healthy
+Normal,5,5,30,0.46,Reachable,Allowed,Healthy
+Normal,5,5,18,0.14,Reachable,Allowed,Healthy
+Normal,5,5,27,0.54,Reachable,Allowed,Healthy
+Normal,5,5,28,0.43,Reachable,Allowed,Healthy
+Normal,5,5,28,0.4,Reachable,Allowed,Healthy
+Normal,5,5,17,1.0,Reachable,Allowed,Healthy
+Normal,5,5,14,0.51,Reachable,Allowed,Healthy
+Normal,5,5,12,0.76,Reachable,Allowed,Healthy
+Normal,5,5,13,0.15,Reachable,Allowed,Healthy
+Normal,5,5,15,0.79,Reachable,Allowed,Healthy
+Normal,5,5,23,0.6,Reachable,Allowed,Healthy
+Normal,5,5,22,0.38,Reachable,Allowed,Healthy
+Normal,5,5,24,0.53,Reachable,Allowed,Healthy
+Normal,5,5,27,0.86,Reachable,Allowed,Healthy
+Normal,5,5,10,0.68,Reachable,Allowed,Healthy
+Normal,5,5,13,0.68,Reachable,Allowed,Healthy
+Normal,5,5,27,0.75,Reachable,Allowed,Healthy
+Normal,5,5,30,0.34,Reachable,Allowed,Healthy
+Normal,5,5,19,0.43,Reachable,Allowed,Healthy
+Normal,5,5,24,0.0,Reachable,Allowed,Healthy
+Normal,5,5,18,0.97,Reachable,Allowed,Healthy
+Normal,5,5,15,0.51,Reachable,Allowed,Healthy
+Normal,5,5,13,0.87,Reachable,Allowed,Healthy
+Normal,5,5,19,0.84,Reachable,Allowed,Healthy
+Normal,5,5,26,0.61,Reachable,Allowed,Healthy
+Normal,5,5,14,0.37,Reachable,Allowed,Healthy
+Normal,5,5,15,0.54,Reachable,Allowed,Healthy
+Normal,5,5,26,0.92,Reachable,Allowed,Healthy
+Normal,5,5,29,0.32,Reachable,Allowed,Healthy
+Normal,5,5,10,0.11,Reachable,Allowed,Healthy
+Normal,5,5,21,0.88,Reachable,Allowed,Healthy
+Normal,5,5,19,0.24,Reachable,Allowed,Healthy
+Normal,5,5,17,0.88,Reachable,Allowed,Healthy
+Normal,5,5,12,0.09,Reachable,Allowed,Healthy
+Normal,5,5,25,0.82,Reachable,Allowed,Healthy
+Normal,5,5,27,0.77,Reachable,Allowed,Healthy
+Normal,5,5,14,0.66,Reachable,Allowed,Healthy
+Normal,5,5,27,0.17,Reachable,Allowed,Healthy
+Normal,5,5,26,0.87,Reachable,Allowed,Healthy
+Normal,5,5,23,0.96,Reachable,Allowed,Healthy
+Normal,5,5,27,0.76,Reachable,Allowed,Healthy
+Normal,5,5,16,0.71,Reachable,Allowed,Healthy
+Normal,5,5,22,1.0,Reachable,Allowed,Healthy
+Normal,5,5,30,0.37,Reachable,Allowed,Healthy
+Normal,5,5,26,0.45,Reachable,Allowed,Healthy
+Normal,5,5,17,0.22,Reachable,Allowed,Healthy
+Normal,5,5,20,0.02,Reachable,Allowed,Healthy
+Normal,5,5,27,0.23,Reachable,Allowed,Healthy
+Normal,5,5,17,0.01,Reachable,Allowed,Healthy
+Normal,5,5,30,0.06,Reachable,Allowed,Healthy
+Normal,5,5,12,0.91,Reachable,Allowed,Healthy
+Normal,5,5,20,0.07,Reachable,Allowed,Healthy
+Normal,5,5,17,0.28,Reachable,Allowed,Healthy
+Normal,5,5,25,0.21,Reachable,Allowed,Healthy
+Normal,5,5,14,0.72,Reachable,Allowed,Healthy
+Normal,5,5,28,0.58,Reachable,Allowed,Healthy
+Normal,5,5,17,0.78,Reachable,Allowed,Healthy
+Normal,5,5,23,0.19,Reachable,Allowed,Healthy
+Normal,5,5,13,0.66,Reachable,Allowed,Healthy
+Normal,5,5,21,0.42,Reachable,Allowed,Healthy
+Normal,5,5,24,0.86,Reachable,Allowed,Healthy
+Normal,5,5,11,0.67,Reachable,Allowed,Healthy
+Normal,5,5,30,0.1,Reachable,Allowed,Healthy
+Normal,5,5,22,0.73,Reachable,Allowed,Healthy
+Normal,5,5,13,0.25,Reachable,Allowed,Healthy
+Normal,5,5,16,0.54,Reachable,Allowed,Healthy
+Normal,5,5,14,0.42,Reachable,Allowed,Healthy
+Normal,5,5,18,0.46,Reachable,Allowed,Healthy
+Normal,5,5,12,0.44,Reachable,Allowed,Healthy
+Normal,5,5,27,0.1,Reachable,Allowed,Healthy
+Normal,5,5,30,1.0,Reachable,Allowed,Healthy
+Normal,5,5,10,0.97,Reachable,Allowed,Healthy
+Normal,5,5,17,0.17,Reachable,Allowed,Healthy
+Normal,5,5,25,0.48,Reachable,Allowed,Healthy
+Normal,5,5,22,0.9,Reachable,Allowed,Healthy
+Normal,5,5,15,0.38,Reachable,Allowed,Healthy
+Normal,5,5,22,0.27,Reachable,Allowed,Healthy
+Normal,5,5,24,0.29,Reachable,Allowed,Healthy
+Normal,5,5,27,0.66,Reachable,Allowed,Healthy
+Normal,5,5,25,0.15,Reachable,Allowed,Healthy
+Normal,5,5,19,0.22,Reachable,Allowed,Healthy
+Normal,5,5,11,0.58,Reachable,Allowed,Healthy
+Normal,5,5,27,0.06,Reachable,Allowed,Healthy
+Normal,5,5,20,0.06,Reachable,Allowed,Healthy
+Normal,5,5,28,0.48,Reachable,Allowed,Healthy
+Normal,5,5,26,0.16,Reachable,Allowed,Healthy
+Normal,5,5,26,0.08,Reachable,Allowed,Healthy
+Normal,5,5,15,0.07,Reachable,Allowed,Healthy
+Normal,5,5,12,0.68,Reachable,Allowed,Healthy
+Normal,5,5,17,0.4,Reachable,Allowed,Healthy
+Normal,5,5,28,0.25,Reachable,Allowed,Healthy
+Normal,5,5,29,0.04,Reachable,Allowed,Healthy
+Normal,5,5,12,0.42,Reachable,Allowed,Healthy
+Normal,5,5,28,0.57,Reachable,Allowed,Healthy
+Normal,5,5,20,0.93,Reachable,Allowed,Healthy
+Normal,5,5,16,0.67,Reachable,Allowed,Healthy
+Normal,5,5,20,0.24,Reachable,Allowed,Healthy
+Normal,5,5,22,0.13,Reachable,Allowed,Healthy
+Normal,5,5,30,0.3,Reachable,Allowed,Healthy
+Normal,5,5,20,0.93,Reachable,Allowed,Healthy
+Normal,5,5,12,0.01,Reachable,Allowed,Healthy
+Normal,5,5,29,1.0,Reachable,Allowed,Healthy
+Normal,5,5,13,0.07,Reachable,Allowed,Healthy
+Normal,5,5,16,0.51,Reachable,Allowed,Healthy
+Normal,5,5,14,0.93,Reachable,Allowed,Healthy
+Normal,5,5,12,0.88,Reachable,Allowed,Healthy
+Normal,5,5,21,0.28,Reachable,Allowed,Healthy
+Normal,5,5,24,0.83,Reachable,Allowed,Healthy
+Normal,5,5,19,0.61,Reachable,Allowed,Healthy
+Normal,5,5,30,0.53,Reachable,Allowed,Healthy
+Normal,5,5,27,0.3,Reachable,Allowed,Healthy
+Normal,5,5,13,0.94,Reachable,Allowed,Healthy
+Normal,5,5,14,0.26,Reachable,Allowed,Healthy
+Normal,5,5,13,0.74,Reachable,Allowed,Healthy
+Normal,5,5,14,0.27,Reachable,Allowed,Healthy
+Normal,5,5,29,0.21,Reachable,Allowed,Healthy
+Normal,5,5,20,0.2,Reachable,Allowed,Healthy
+Normal,5,5,30,0.85,Reachable,Allowed,Healthy
+Normal,5,5,26,0.49,Reachable,Allowed,Healthy
+Normal,5,5,11,0.09,Reachable,Allowed,Healthy
+Normal,5,5,23,0.83,Reachable,Allowed,Healthy
+Normal,5,5,11,0.0,Reachable,Allowed,Healthy
+Normal,5,5,14,0.64,Reachable,Allowed,Healthy
+Normal,5,5,18,0.16,Reachable,Allowed,Healthy
+Normal,5,5,24,0.55,Reachable,Allowed,Healthy
+Normal,5,5,23,0.56,Reachable,Allowed,Healthy
+Normal,5,5,13,0.08,Reachable,Allowed,Healthy
+Normal,5,5,14,0.55,Reachable,Allowed,Healthy
+Normal,5,5,21,0.58,Reachable,Allowed,Healthy
+Normal,5,5,14,0.43,Reachable,Allowed,Healthy
+Normal,5,5,11,0.31,Reachable,Allowed,Healthy
+Normal,5,5,11,0.9,Reachable,Allowed,Healthy
+Normal,5,5,16,0.68,Reachable,Allowed,Healthy
+Normal,5,5,13,0.35,Reachable,Allowed,Healthy
+Normal,5,5,27,0.88,Reachable,Allowed,Healthy
+Normal,5,5,23,0.97,Reachable,Allowed,Healthy
+Normal,5,5,14,0.93,Reachable,Allowed,Healthy
+Normal,5,5,17,0.86,Reachable,Allowed,Healthy
+Normal,5,5,15,0.88,Reachable,Allowed,Healthy
+Normal,5,5,10,0.18,Reachable,Allowed,Healthy
+Normal,5,5,20,0.78,Reachable,Allowed,Healthy
+Normal,5,5,23,0.8,Reachable,Allowed,Healthy
+Normal,5,5,17,0.27,Reachable,Allowed,Healthy
+Normal,5,5,13,0.38,Reachable,Allowed,Healthy
+Normal,5,5,11,0.86,Reachable,Allowed,Healthy
+Normal,5,5,17,0.2,Reachable,Allowed,Healthy
+Normal,5,5,24,0.35,Reachable,Allowed,Healthy
+Normal,5,5,17,0.22,Reachable,Allowed,Healthy
+Normal,5,5,16,0.4,Reachable,Allowed,Healthy
+Normal,5,5,18,0.86,Reachable,Allowed,Healthy
+Normal,5,5,18,0.35,Reachable,Allowed,Healthy
+Normal,5,5,26,0.4,Reachable,Allowed,Healthy
+Normal,5,5,27,0.33,Reachable,Allowed,Healthy
+Normal,5,5,10,0.12,Reachable,Allowed,Healthy
+Normal,5,5,18,0.18,Reachable,Allowed,Healthy
+Normal,5,5,18,0.04,Reachable,Allowed,Healthy
+Normal,5,5,29,0.43,Reachable,Allowed,Healthy
+Normal,5,5,20,0.44,Reachable,Allowed,Healthy
+Normal,5,5,26,0.12,Reachable,Allowed,Healthy
+Normal,5,5,28,0.19,Reachable,Allowed,Healthy
+Normal,5,5,11,0.71,Reachable,Allowed,Healthy
+Normal,5,5,10,0.52,Reachable,Allowed,Healthy
+Normal,5,5,27,0.69,Reachable,Allowed,Healthy
+Normal,5,5,16,0.36,Reachable,Allowed,Healthy
+Normal,5,5,12,0.95,Reachable,Allowed,Healthy
+Normal,5,5,20,0.62,Reachable,Allowed,Healthy
+Normal,5,5,13,0.72,Reachable,Allowed,Healthy
+Normal,5,5,19,0.51,Reachable,Allowed,Healthy
+Normal,5,5,23,0.33,Reachable,Allowed,Healthy
+Normal,5,5,19,0.55,Reachable,Allowed,Healthy
+Normal,5,5,16,0.42,Reachable,Allowed,Healthy
+Normal,5,5,22,0.68,Reachable,Allowed,Healthy
+Normal,5,5,15,0.62,Reachable,Allowed,Healthy
+Normal,5,5,19,0.41,Reachable,Allowed,Healthy
+Normal,5,5,10,0.3,Reachable,Allowed,Healthy
+Normal,5,5,16,0.43,Reachable,Allowed,Healthy
+Normal,5,5,28,0.61,Reachable,Allowed,Healthy
+Normal,5,5,20,0.46,Reachable,Allowed,Healthy
+Normal,5,5,24,0.68,Reachable,Allowed,Healthy
+Normal,5,5,26,0.47,Reachable,Allowed,Healthy
+Normal,5,5,15,0.66,Reachable,Allowed,Healthy
+Normal,5,5,19,0.52,Reachable,Allowed,Healthy
+Normal,5,5,30,0.62,Reachable,Allowed,Healthy
+Normal,5,5,12,0.82,Reachable,Allowed,Healthy
+Normal,5,5,17,0.67,Reachable,Allowed,Healthy
+Normal,5,5,17,0.81,Reachable,Allowed,Healthy
+Normal,5,5,14,0.02,Reachable,Allowed,Healthy
+Normal,5,5,17,0.98,Reachable,Allowed,Healthy
+Normal,5,5,29,0.85,Reachable,Allowed,Healthy
+Normal,5,5,12,0.46,Reachable,Allowed,Healthy
+Normal,5,5,30,0.58,Reachable,Allowed,Healthy
+Normal,5,5,22,0.49,Reachable,Allowed,Healthy
+Normal,5,5,17,0.15,Reachable,Allowed,Healthy
+Normal,5,5,10,0.89,Reachable,Allowed,Healthy
+Normal,5,5,13,0.78,Reachable,Allowed,Healthy
+Normal,5,5,17,0.18,Reachable,Allowed,Healthy
+Normal,5,5,26,0.46,Reachable,Allowed,Healthy
+Normal,5,5,27,0.25,Reachable,Allowed,Healthy
+Normal,5,5,13,0.46,Reachable,Allowed,Healthy
+Normal,5,5,24,0.67,Reachable,Allowed,Healthy
+Normal,5,5,27,0.6,Reachable,Allowed,Healthy
+Normal,5,5,24,0.61,Reachable,Allowed,Healthy
+Normal,5,5,26,0.43,Reachable,Allowed,Healthy
+Normal,5,5,27,0.45,Reachable,Allowed,Healthy
+Normal,5,5,15,0.74,Reachable,Allowed,Healthy
+Normal,5,5,25,0.45,Reachable,Allowed,Healthy
+Normal,5,5,17,0.84,Reachable,Allowed,Healthy
+Normal,5,5,18,0.77,Reachable,Allowed,Healthy
+Normal,5,5,26,0.48,Reachable,Allowed,Healthy
+Normal,5,5,17,0.27,Reachable,Allowed,Healthy
+Normal,5,5,12,0.71,Reachable,Allowed,Healthy
+Normal,5,5,17,0.27,Reachable,Allowed,Healthy
+Normal,5,5,20,0.89,Reachable,Allowed,Healthy
+Normal,5,5,12,0.14,Reachable,Allowed,Healthy
+Normal,5,5,17,0.38,Reachable,Allowed,Healthy
+Normal,5,5,14,0.71,Reachable,Allowed,Healthy
+Normal,5,5,12,0.41,Reachable,Allowed,Healthy
+Normal,5,5,20,0.54,Reachable,Allowed,Healthy
+Normal,5,5,23,0.06,Reachable,Allowed,Healthy
+Normal,5,5,23,0.39,Reachable,Allowed,Healthy
+Normal,5,5,28,0.95,Reachable,Allowed,Healthy
+Normal,5,5,10,0.86,Reachable,Allowed,Healthy
+Normal,5,5,28,0.38,Reachable,Allowed,Healthy
+Normal,5,5,10,0.94,Reachable,Allowed,Healthy
+Normal,5,5,19,0.75,Reachable,Allowed,Healthy
+Normal,5,5,23,0.54,Reachable,Allowed,Healthy
+Normal,5,5,27,0.8,Reachable,Allowed,Healthy
+Normal,5,5,17,0.49,Reachable,Allowed,Healthy
+Normal,5,5,18,0.44,Reachable,Allowed,Healthy
+Normal,5,5,10,0.39,Reachable,Allowed,Healthy
+Normal,5,5,22,0.72,Reachable,Allowed,Healthy
+Normal,5,5,24,0.92,Reachable,Allowed,Healthy
+Normal,5,5,29,0.53,Reachable,Allowed,Healthy
+Normal,5,5,22,0.59,Reachable,Allowed,Healthy
+Normal,5,5,10,0.08,Reachable,Allowed,Healthy
+Normal,5,5,23,0.14,Reachable,Allowed,Healthy
+Normal,5,5,24,0.18,Reachable,Allowed,Healthy
+Normal,5,5,18,0.38,Reachable,Allowed,Healthy
+Normal,5,5,16,0.45,Reachable,Allowed,Healthy
+Normal,5,5,20,0.76,Reachable,Allowed,Healthy
+Normal,5,5,22,0.28,Reachable,Allowed,Healthy
+Normal,5,5,23,0.25,Reachable,Allowed,Healthy
+Normal,5,5,12,0.47,Reachable,Allowed,Healthy
+Normal,5,5,27,0.05,Reachable,Allowed,Healthy
+Normal,5,5,21,0.22,Reachable,Allowed,Healthy
+Normal,5,5,12,0.78,Reachable,Allowed,Healthy
+Normal,5,5,30,0.04,Reachable,Allowed,Healthy
+Normal,5,5,10,0.95,Reachable,Allowed,Healthy
+Normal,5,5,16,0.84,Reachable,Allowed,Healthy
+Normal,5,5,29,0.15,Reachable,Allowed,Healthy
+Normal,5,5,14,0.47,Reachable,Allowed,Healthy
+Normal,5,5,13,0.56,Reachable,Allowed,Healthy
+Normal,5,5,16,0.47,Reachable,Allowed,Healthy
+Normal,5,5,18,0.77,Reachable,Allowed,Healthy
+Normal,5,5,15,0.61,Reachable,Allowed,Healthy
+Normal,5,5,13,0.78,Reachable,Allowed,Healthy
+Normal,5,5,15,0.96,Reachable,Allowed,Healthy
+Normal,5,5,13,0.58,Reachable,Allowed,Healthy
+Normal,5,5,19,0.58,Reachable,Allowed,Healthy
+Normal,5,5,22,0.4,Reachable,Allowed,Healthy
+Normal,5,5,16,0.08,Reachable,Allowed,Healthy
+Normal,5,5,30,0.24,Reachable,Allowed,Healthy
+Normal,5,5,19,0.85,Reachable,Allowed,Healthy
+Normal,5,5,29,0.81,Reachable,Allowed,Healthy
+Normal,5,5,28,0.78,Reachable,Allowed,Healthy
+Normal,5,5,21,0.53,Reachable,Allowed,Healthy
+Normal,5,5,21,0.07,Reachable,Allowed,Healthy
+Normal,5,5,30,0.34,Reachable,Allowed,Healthy
+Normal,5,5,23,0.82,Reachable,Allowed,Healthy
+Normal,5,5,13,0.43,Reachable,Allowed,Healthy
+Normal,5,5,21,0.64,Reachable,Allowed,Healthy
+Normal,5,5,24,0.71,Reachable,Allowed,Healthy
+Normal,5,5,23,0.18,Reachable,Allowed,Healthy
+Normal,5,5,26,0.97,Reachable,Allowed,Healthy
+Normal,5,5,18,0.62,Reachable,Allowed,Healthy
+Normal,5,5,27,0.77,Reachable,Allowed,Healthy
+Normal,5,5,24,0.44,Reachable,Allowed,Healthy
+Normal,5,5,28,0.27,Reachable,Allowed,Healthy
+Normal,5,5,17,0.83,Reachable,Allowed,Healthy
+Normal,5,5,12,0.28,Reachable,Allowed,Healthy
+Normal,5,5,24,0.24,Reachable,Allowed,Healthy
+Normal,5,5,24,0.57,Reachable,Allowed,Healthy
+Normal,5,5,22,0.34,Reachable,Allowed,Healthy
+Normal,5,5,25,0.85,Reachable,Allowed,Healthy
+Normal,5,5,15,0.49,Reachable,Allowed,Healthy
+Normal,5,5,21,0.8,Reachable,Allowed,Healthy
+Normal,5,5,20,0.28,Reachable,Allowed,Healthy
+Normal,5,5,29,0.7,Reachable,Allowed,Healthy
+Normal,5,5,18,0.56,Reachable,Allowed,Healthy
+Normal,5,5,26,0.95,Reachable,Allowed,Healthy
+Normal,5,5,12,0.24,Reachable,Allowed,Healthy
+Normal,5,5,23,0.49,Reachable,Allowed,Healthy
+Normal,5,5,17,0.69,Reachable,Allowed,Healthy
+Normal,5,5,30,0.71,Reachable,Allowed,Healthy
+Normal,5,5,24,0.79,Reachable,Allowed,Healthy
+Normal,5,5,12,0.29,Reachable,Allowed,Healthy
+Normal,5,5,22,0.69,Reachable,Allowed,Healthy
+Normal,5,5,19,0.66,Reachable,Allowed,Healthy
+Normal,5,5,21,0.47,Reachable,Allowed,Healthy
+Normal,5,5,26,0.34,Reachable,Allowed,Healthy
+Normal,5,5,27,0.33,Reachable,Allowed,Healthy
+Normal,5,5,24,0.27,Reachable,Allowed,Healthy
+Normal,5,5,18,0.23,Reachable,Allowed,Healthy
+Normal,5,5,16,0.32,Reachable,Allowed,Healthy
+Normal,5,5,27,0.95,Reachable,Allowed,Healthy
+Normal,5,5,15,0.19,Reachable,Allowed,Healthy
+Normal,5,5,25,0.28,Reachable,Allowed,Healthy
+Normal,5,5,28,0.98,Reachable,Allowed,Healthy
+Normal,5,5,26,0.6,Reachable,Allowed,Healthy
+Normal,5,5,13,0.83,Reachable,Allowed,Healthy
+Normal,5,5,19,0.23,Reachable,Allowed,Healthy
+Normal,5,5,15,0.3,Reachable,Allowed,Healthy
+Normal,5,5,27,0.13,Reachable,Allowed,Healthy
+Normal,5,5,11,0.97,Reachable,Allowed,Healthy
+Normal,5,5,27,0.29,Reachable,Allowed,Healthy
+Normal,5,5,14,0.64,Reachable,Allowed,Healthy
+Normal,5,5,25,0.1,Reachable,Allowed,Healthy
+Normal,5,5,10,0.57,Reachable,Allowed,Healthy
+Normal,5,5,25,0.48,Reachable,Allowed,Healthy
+Normal,5,5,20,0.18,Reachable,Allowed,Healthy
+Normal,5,5,11,0.25,Reachable,Allowed,Healthy
+Normal,5,5,25,0.11,Reachable,Allowed,Healthy
+Normal,5,5,12,0.4,Reachable,Allowed,Healthy
+Normal,5,5,12,0.58,Reachable,Allowed,Healthy
+Normal,5,5,11,0.15,Reachable,Allowed,Healthy
+Normal,5,5,28,0.95,Reachable,Allowed,Healthy
+Normal,5,5,12,0.99,Reachable,Allowed,Healthy
+Normal,5,5,13,0.56,Reachable,Allowed,Healthy
+Normal,5,5,23,0.61,Reachable,Allowed,Healthy
+Normal,5,5,29,0.23,Reachable,Allowed,Healthy
+Normal,5,5,26,0.38,Reachable,Allowed,Healthy
+Normal,5,5,24,0.3,Reachable,Allowed,Healthy
+Normal,5,5,28,0.99,Reachable,Allowed,Healthy
+Normal,5,5,19,0.57,Reachable,Allowed,Healthy
+Normal,5,5,11,0.61,Reachable,Allowed,Healthy
+Normal,5,5,13,0.95,Reachable,Allowed,Healthy
+Normal,5,5,16,0.63,Reachable,Allowed,Healthy
+Normal,5,5,18,0.66,Reachable,Allowed,Healthy
+Normal,5,5,15,0.24,Reachable,Allowed,Healthy
+Normal,5,5,27,0.08,Reachable,Allowed,Healthy
+Normal,5,5,10,0.41,Reachable,Allowed,Healthy
+Normal,5,5,29,0.47,Reachable,Allowed,Healthy
+Normal,5,5,11,0.23,Reachable,Allowed,Healthy
+Normal,5,5,19,0.7,Reachable,Allowed,Healthy
+Normal,5,5,24,0.07,Reachable,Allowed,Healthy
+Normal,5,5,17,0.92,Reachable,Allowed,Healthy
+Normal,5,5,30,0.59,Reachable,Allowed,Healthy
+Normal,5,5,16,0.43,Reachable,Allowed,Healthy
+Normal,5,5,27,0.22,Reachable,Allowed,Healthy
+Normal,5,5,14,0.91,Reachable,Allowed,Healthy
+Normal,5,5,14,0.07,Reachable,Allowed,Healthy
+Normal,5,5,15,0.79,Reachable,Allowed,Healthy
+Normal,5,5,29,0.75,Reachable,Allowed,Healthy
+Normal,5,5,28,0.92,Reachable,Allowed,Healthy
+Normal,5,5,24,0.12,Reachable,Allowed,Healthy
+Normal,5,5,19,0.7,Reachable,Allowed,Healthy
+Normal,5,5,18,0.5,Reachable,Allowed,Healthy
+Normal,5,5,25,0.44,Reachable,Allowed,Healthy
+Normal,5,5,29,0.04,Reachable,Allowed,Healthy
+Normal,5,5,23,0.73,Reachable,Allowed,Healthy
+Normal,5,5,29,0.25,Reachable,Allowed,Healthy
+Normal,5,5,12,0.23,Reachable,Allowed,Healthy
+Normal,5,5,28,0.59,Reachable,Allowed,Healthy
+Normal,5,5,10,1.0,Reachable,Allowed,Healthy
+Normal,5,5,18,0.58,Reachable,Allowed,Healthy
+Normal,5,5,15,0.47,Reachable,Allowed,Healthy
+Normal,5,5,30,0.44,Reachable,Allowed,Healthy
+Normal,5,5,18,0.18,Reachable,Allowed,Healthy
+Normal,5,5,28,0.44,Reachable,Allowed,Healthy
+Normal,5,5,25,0.97,Reachable,Allowed,Healthy
+Normal,5,5,25,0.35,Reachable,Allowed,Healthy
+Normal,5,5,20,0.32,Reachable,Allowed,Healthy
+Normal,5,5,13,0.86,Reachable,Allowed,Healthy
+Normal,5,5,20,0.41,Reachable,Allowed,Healthy
+Normal,5,5,25,0.29,Reachable,Allowed,Healthy
+Normal,5,5,22,0.81,Reachable,Allowed,Healthy
+Normal,5,5,27,0.04,Reachable,Allowed,Healthy
+Normal,5,5,12,0.31,Reachable,Allowed,Healthy
+Normal,5,5,20,0.12,Reachable,Allowed,Healthy
+Normal,5,5,22,0.86,Reachable,Allowed,Healthy
+Normal,5,5,10,0.66,Reachable,Allowed,Healthy
+Normal,5,5,27,0.46,Reachable,Allowed,Healthy
+Normal,5,5,11,0.19,Reachable,Allowed,Healthy
+Normal,5,5,21,0.62,Reachable,Allowed,Healthy
+Normal,5,5,25,0.63,Reachable,Allowed,Healthy
+Normal,5,5,11,0.2,Reachable,Allowed,Healthy
+Normal,5,5,27,0.13,Reachable,Allowed,Healthy
+Normal,5,5,19,0.44,Reachable,Allowed,Healthy
+Normal,5,5,25,0.12,Reachable,Allowed,Healthy
+Normal,5,5,30,0.61,Reachable,Allowed,Healthy
+Normal,5,5,17,0.71,Reachable,Allowed,Healthy
+Normal,5,5,19,0.55,Reachable,Allowed,Healthy
+Normal,5,5,27,0.41,Reachable,Allowed,Healthy
+Normal,5,5,17,0.99,Reachable,Allowed,Healthy
+Normal,5,5,13,0.46,Reachable,Allowed,Healthy
+Normal,5,5,13,0.65,Reachable,Allowed,Healthy
+Normal,5,5,14,0.5,Reachable,Allowed,Healthy
+Normal,5,5,19,0.51,Reachable,Allowed,Healthy
+Normal,5,5,18,0.42,Reachable,Allowed,Healthy
+Normal,5,5,25,0.98,Reachable,Allowed,Healthy
+Normal,5,5,17,0.46,Reachable,Allowed,Healthy
+Normal,5,5,14,0.38,Reachable,Allowed,Healthy
+Normal,5,5,29,0.51,Reachable,Allowed,Healthy
+Normal,5,5,14,0.86,Reachable,Allowed,Healthy
+Normal,5,5,18,0.77,Reachable,Allowed,Healthy
+Normal,5,5,23,0.34,Reachable,Allowed,Healthy
+Normal,5,5,26,0.27,Reachable,Allowed,Healthy
+Normal,5,5,10,0.28,Reachable,Allowed,Healthy
+Normal,5,5,19,0.84,Reachable,Allowed,Healthy
+Normal,5,5,28,1.0,Reachable,Allowed,Healthy
+Normal,5,5,25,0.87,Reachable,Allowed,Healthy
+Normal,5,5,24,0.54,Reachable,Allowed,Healthy
+Normal,5,5,21,0.33,Reachable,Allowed,Healthy
+Normal,5,5,27,0.38,Reachable,Allowed,Healthy
+Normal,5,5,20,0.87,Reachable,Allowed,Healthy
+Normal,5,5,17,0.57,Reachable,Allowed,Healthy
+Normal,5,5,17,0.86,Reachable,Allowed,Healthy
+Normal,5,5,23,0.04,Reachable,Allowed,Healthy
+Normal,5,5,25,0.71,Reachable,Allowed,Healthy
+Normal,5,5,22,0.39,Reachable,Allowed,Healthy
+Normal,5,5,30,0.98,Reachable,Allowed,Healthy
+Normal,5,5,25,0.96,Reachable,Allowed,Healthy
+Normal,5,5,14,0.5,Reachable,Allowed,Healthy
+Normal,5,5,28,0.33,Reachable,Allowed,Healthy
+Normal,5,5,13,0.87,Reachable,Allowed,Healthy
+Normal,5,5,24,0.1,Reachable,Allowed,Healthy
+Normal,5,5,24,0.02,Reachable,Allowed,Healthy
+Normal,5,5,14,0.41,Reachable,Allowed,Healthy
+Normal,5,5,30,0.97,Reachable,Allowed,Healthy
+Normal,5,5,12,0.47,Reachable,Allowed,Healthy
+Normal,5,5,18,0.34,Reachable,Allowed,Healthy
+Normal,5,5,22,0.65,Reachable,Allowed,Healthy
+Normal,5,5,20,0.85,Reachable,Allowed,Healthy
+Normal,5,5,27,0.38,Reachable,Allowed,Healthy
+Normal,5,5,20,0.63,Reachable,Allowed,Healthy
+Normal,5,5,25,0.87,Reachable,Allowed,Healthy
+Normal,5,5,11,0.62,Reachable,Allowed,Healthy
+Normal,5,5,17,0.63,Reachable,Allowed,Healthy
+Normal,5,5,19,1.0,Reachable,Allowed,Healthy
+Normal,5,5,12,0.43,Reachable,Allowed,Healthy
+Normal,5,5,13,0.76,Reachable,Allowed,Healthy
+Normal,5,5,13,0.44,Reachable,Allowed,Healthy
+Normal,5,5,19,0.9,Reachable,Allowed,Healthy
+Normal,5,5,11,0.32,Reachable,Allowed,Healthy
+Normal,5,5,11,0.29,Reachable,Allowed,Healthy
+Normal,5,5,21,0.43,Reachable,Allowed,Healthy
+Normal,5,5,17,0.53,Reachable,Allowed,Healthy
+Normal,5,5,28,0.68,Reachable,Allowed,Healthy
+Normal,5,5,15,0.17,Reachable,Allowed,Healthy
+Normal,5,5,12,0.61,Reachable,Allowed,Healthy
+Normal,5,5,22,0.62,Reachable,Allowed,Healthy
+Normal,5,5,17,0.5,Reachable,Allowed,Healthy
+Normal,5,5,28,0.14,Reachable,Allowed,Healthy
+Normal,5,5,24,0.64,Reachable,Allowed,Healthy
+Normal,5,5,24,0.26,Reachable,Allowed,Healthy
+Link Failure,5,5,10,0.9,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.9,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.16,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.69,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.11,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.02,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.91,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.83,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.78,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.62,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.63,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.65,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.18,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.83,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.91,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.86,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.01,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.12,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.94,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.91,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.65,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.14,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.12,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.39,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.42,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.62,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.54,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.36,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.28,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.21,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.21,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.81,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.25,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.11,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.59,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.17,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.48,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.45,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.73,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.43,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.32,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.62,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.38,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.88,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.72,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.43,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.4,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.74,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.81,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.06,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.56,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.35,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.56,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.93,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.7,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.92,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.01,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.38,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.78,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.6,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.16,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.05,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.35,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.28,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.05,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.01,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.76,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.18,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.44,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.92,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.4,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.42,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.17,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.46,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.4,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.4,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.11,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.19,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.35,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.82,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.2,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.76,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.68,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.32,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.32,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.63,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.59,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.46,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.06,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.62,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.38,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.45,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.65,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.45,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.52,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.36,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.39,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.68,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.28,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.92,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.81,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.36,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.19,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.84,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.84,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.88,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.83,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.81,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.72,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.28,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.23,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.9,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.77,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.97,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.71,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.09,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.82,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.93,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.05,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.93,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.14,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.92,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.7,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.76,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.45,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.91,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.26,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.78,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.79,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.06,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.6,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.63,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.29,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.66,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.52,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.54,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.25,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.36,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.74,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.18,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.63,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.06,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.93,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.4,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.47,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.29,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.87,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.44,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.74,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.73,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.43,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.1,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.66,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.45,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.17,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.35,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.73,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.44,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.65,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.74,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.52,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.12,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.7,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.69,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.2,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.85,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.17,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.71,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.17,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.51,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.57,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.07,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.82,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.47,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.64,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.77,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.43,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.83,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.16,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.35,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.25,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.59,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.72,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.34,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.08,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.77,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.65,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.42,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.69,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.44,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.46,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.86,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.73,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.76,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.56,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.24,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.14,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.29,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.86,Unreachable,Allowed,Healthy
+Link Failure,5,5,23,0.25,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.81,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.72,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.76,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,12,0.95,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.46,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.22,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.05,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.67,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.54,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.43,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.73,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.05,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.19,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.29,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.28,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.68,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.13,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.39,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.56,Unreachable,Allowed,Healthy
+Link Failure,5,5,21,0.75,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.6,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.5,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.04,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.46,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.89,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.33,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.32,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.99,Unreachable,Allowed,Healthy
+Link Failure,5,5,19,0.59,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.83,Unreachable,Allowed,Healthy
+Link Failure,5,5,27,0.49,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.3,Unreachable,Allowed,Healthy
+Link Failure,5,5,10,0.37,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.98,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.27,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.78,Unreachable,Allowed,Healthy
+Link Failure,5,5,28,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.58,Unreachable,Allowed,Healthy
+Link Failure,5,5,15,0.52,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.77,Unreachable,Allowed,Healthy
+Link Failure,5,5,22,0.15,Unreachable,Allowed,Healthy
+Link Failure,5,5,17,0.03,Unreachable,Allowed,Healthy
+Link Failure,5,5,13,0.19,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.31,Unreachable,Allowed,Healthy
+Link Failure,5,5,14,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.41,Unreachable,Allowed,Healthy
+Link Failure,5,5,29,0.92,Unreachable,Allowed,Healthy
+Link Failure,5,5,11,0.71,Unreachable,Allowed,Healthy
+Link Failure,5,5,26,0.21,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,1.0,Unreachable,Allowed,Healthy
+Link Failure,5,5,25,0.53,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,24,0.91,Unreachable,Allowed,Healthy
+Link Failure,5,5,20,0.55,Unreachable,Allowed,Healthy
+Link Failure,5,5,30,0.8,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.61,Unreachable,Allowed,Healthy
+Link Failure,5,5,16,0.96,Unreachable,Allowed,Healthy
+Link Failure,5,5,18,0.56,Unreachable,Allowed,Healthy
+Packet Loss,5,5,17,44.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,37.26,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,28.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,34.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,44.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,40.12,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,43.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,31.06,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,25.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,34.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,35.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,21.27,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,25.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,37.93,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,23.44,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,23.95,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,41.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,38.9,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,36.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,25.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,24.38,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,20.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,24.66,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,20.23,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,43.21,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,44.73,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,42.23,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,31.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,28.27,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,37.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,39.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,24.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,42.43,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,22.17,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,23.52,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,20.17,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,38.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,38.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,28.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,37.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,35.97,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,25.52,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,31.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,37.55,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,40.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,37.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,22.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,29.04,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,40.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,33.42,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,33.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,37.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,32.76,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,32.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,33.97,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,29.9,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,34.46,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,37.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,43.36,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,31.8,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,39.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,36.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,42.28,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,42.67,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,44.1,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,41.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,33.43,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,44.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,44.46,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,33.61,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,25.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,26.89,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,36.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,42.09,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,21.68,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,34.94,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,21.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,25.43,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,44.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,38.29,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,39.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,41.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,27.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,34.79,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,30.68,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,28.61,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,39.65,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,30.21,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,38.86,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,25.63,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,42.87,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,30.41,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,26.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,21.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,22.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,29.43,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,41.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,34.69,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,25.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,42.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,44.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,38.86,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,37.59,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,33.8,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,33.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,28.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,40.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,28.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,30.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,38.53,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,43.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,27.38,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,29.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,36.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,40.54,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,31.52,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,38.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,42.23,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,33.1,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,36.71,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,41.06,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,23.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,29.33,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,43.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,20.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,20.3,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,33.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,40.33,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,42.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,33.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,33.16,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,29.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,31.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,25.65,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,41.46,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,29.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,35.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,41.13,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,34.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,42.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,41.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,21.16,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,27.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,20.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,25.18,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,37.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,27.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,40.87,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,33.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,23.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,44.36,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,25.8,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,39.23,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,39.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,39.59,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,28.9,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,36.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,35.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,39.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,27.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,43.57,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,26.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,30.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,30.2,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,33.86,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,28.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,30.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,33.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,24.24,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,26.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,21.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,27.49,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,43.61,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,35.42,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,27.62,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,35.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,30.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,23.4,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,37.38,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,44.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,37.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,39.55,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,40.41,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,43.3,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,33.64,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,38.18,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,27.28,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,39.89,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,23.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,36.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,21.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,30.02,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,41.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,39.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,40.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,22.12,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,28.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,34.08,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,29.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,30.76,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,25.55,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,37.19,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,29.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,23.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,27.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,43.52,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,28.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,28.71,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,37.42,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,21.12,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,28.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,24.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,33.8,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,43.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,35.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,30.8,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,42.08,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,29.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,38.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,39.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,28.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,36.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,35.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,29.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,41.14,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,36.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,34.75,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,25.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,37.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,34.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,24.64,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,42.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,32.24,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,41.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,28.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,24.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,32.64,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,32.29,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,22.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,25.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,33.44,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,34.14,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,22.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,33.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,38.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,44.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,36.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,44.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,41.55,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,44.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,38.44,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,35.26,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,23.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,40.14,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,27.03,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,44.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,26.68,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,36.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,38.75,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,44.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,41.65,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,28.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,36.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,35.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,31.3,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,39.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,26.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,32.2,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,39.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,31.46,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,39.89,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,30.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,28.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,34.45,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,39.71,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,35.65,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,43.24,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,20.02,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,37.21,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,27.55,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,29.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,42.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,35.64,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.28,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,31.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,32.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,37.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,30.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,25.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,22.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,27.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,38.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,36.93,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,20.21,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,28.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,23.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,31.06,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,22.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,29.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,23.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,26.2,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,35.19,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,36.46,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,35.17,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,27.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,39.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,21.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,43.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,40.97,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,37.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,39.26,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,20.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,21.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,35.71,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,30.59,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,33.41,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,22.09,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,25.08,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,29.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,36.25,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,37.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.16,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,35.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,38.54,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,37.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,43.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,40.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,23.17,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,22.95,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,30.73,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,37.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,32.4,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,32.49,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,23.93,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,36.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,32.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,20.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,29.57,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,44.01,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,42.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,28.05,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,28.0,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,22.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,40.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,21.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,39.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,33.83,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,27.29,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,26.06,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,32.33,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,33.66,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,43.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,28.66,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,20.04,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,38.18,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,44.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,21.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,22.33,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,32.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,38.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,23.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,34.2,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,23.27,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,27.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,38.38,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,25.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,39.25,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,24.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,23.02,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,25.19,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,41.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,37.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,40.9,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,37.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,21.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,44.77,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,41.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,26.25,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,39.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,40.76,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,40.59,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,43.44,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,26.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,21.61,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,23.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,43.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,34.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,29.57,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,25.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,31.15,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,35.48,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,32.47,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,22.19,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,24.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,44.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,44.74,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,39.54,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,32.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,20.65,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,42.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,44.79,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,34.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,22.5,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,40.41,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,43.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,39.93,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,44.79,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,34.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,20.71,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,34.09,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,40.92,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,24.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,25.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,31.95,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,25.04,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,24.44,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,23.69,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,41.16,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,29.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,28.41,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,23.94,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,44.02,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,37.68,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,43.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,34.72,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,38.35,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,38.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,44.86,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,35.06,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,34.14,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,38.63,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,27.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,22.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,28.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,26.24,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,39.68,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,30.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,42.11,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,28.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,31.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,37.18,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,39.98,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,27.97,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,24.25,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,21.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,44.63,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,30.78,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,42.24,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,28.28,Reachable,Allowed,Healthy
+Packet Loss,5,5,16,33.85,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,27.04,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,29.82,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,23.84,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,22.19,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,24.99,Reachable,Allowed,Healthy
+Packet Loss,5,5,10,35.95,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,22.89,Reachable,Allowed,Healthy
+Packet Loss,5,5,22,42.37,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,33.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,29.54,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,26.58,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,40.93,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,38.81,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,28.59,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,38.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,41.02,Reachable,Allowed,Healthy
+Packet Loss,5,5,26,33.39,Reachable,Allowed,Healthy
+Packet Loss,5,5,25,25.89,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,42.57,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,42.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,35.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,31.23,Reachable,Allowed,Healthy
+Packet Loss,5,5,15,40.21,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,21.96,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,40.56,Reachable,Allowed,Healthy
+Packet Loss,5,5,14,26.45,Reachable,Allowed,Healthy
+Packet Loss,5,5,12,33.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,27,26.91,Reachable,Allowed,Healthy
+Packet Loss,5,5,24,20.31,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,39.54,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,23.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,28,44.12,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,34.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,41.69,Reachable,Allowed,Healthy
+Packet Loss,5,5,21,26.6,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,35.22,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,30.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,29,37.34,Reachable,Allowed,Healthy
+Packet Loss,5,5,11,41.97,Reachable,Allowed,Healthy
+Packet Loss,5,5,17,31.88,Reachable,Allowed,Healthy
+Packet Loss,5,5,18,20.51,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,41.07,Reachable,Allowed,Healthy
+Packet Loss,5,5,13,25.7,Reachable,Allowed,Healthy
+Packet Loss,5,5,19,31.08,Reachable,Allowed,Healthy
+Packet Loss,5,5,20,30.42,Reachable,Allowed,Healthy
+Packet Loss,5,5,30,31.04,Reachable,Allowed,Healthy
+Packet Loss,5,5,23,38.99,Reachable,Allowed,Healthy
+High Latency,5,5,463,0.82,Reachable,Allowed,Healthy
+High Latency,5,5,459,0.07,Reachable,Allowed,Healthy
+High Latency,5,5,468,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,298,0.03,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,384,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,437,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,263,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,450,0.24,Reachable,Allowed,Healthy
+High Latency,5,5,442,0.45,Reachable,Allowed,Healthy
+High Latency,5,5,376,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,332,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,397,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,492,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,315,0.86,Reachable,Allowed,Healthy
+High Latency,5,5,409,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,204,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,288,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,314,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,356,0.61,Reachable,Allowed,Healthy
+High Latency,5,5,392,0.28,Reachable,Allowed,Healthy
+High Latency,5,5,311,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,466,0.3,Reachable,Allowed,Healthy
+High Latency,5,5,252,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,391,0.51,Reachable,Allowed,Healthy
+High Latency,5,5,344,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,446,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.34,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.33,Reachable,Allowed,Healthy
+High Latency,5,5,352,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,323,0.15,Reachable,Allowed,Healthy
+High Latency,5,5,406,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,213,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,351,0.5,Reachable,Allowed,Healthy
+High Latency,5,5,407,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,498,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.82,Reachable,Allowed,Healthy
+High Latency,5,5,443,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,287,0.51,Reachable,Allowed,Healthy
+High Latency,5,5,249,0.18,Reachable,Allowed,Healthy
+High Latency,5,5,332,0.13,Reachable,Allowed,Healthy
+High Latency,5,5,293,0.76,Reachable,Allowed,Healthy
+High Latency,5,5,313,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,357,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,369,0.79,Reachable,Allowed,Healthy
+High Latency,5,5,350,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,440,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,498,0.87,Reachable,Allowed,Healthy
+High Latency,5,5,236,0.94,Reachable,Allowed,Healthy
+High Latency,5,5,456,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,395,0.87,Reachable,Allowed,Healthy
+High Latency,5,5,227,0.3,Reachable,Allowed,Healthy
+High Latency,5,5,302,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,491,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,292,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,290,0.49,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,286,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,450,0.76,Reachable,Allowed,Healthy
+High Latency,5,5,422,0.13,Reachable,Allowed,Healthy
+High Latency,5,5,419,0.43,Reachable,Allowed,Healthy
+High Latency,5,5,219,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,391,0.2,Reachable,Allowed,Healthy
+High Latency,5,5,471,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,315,0.73,Reachable,Allowed,Healthy
+High Latency,5,5,252,0.31,Reachable,Allowed,Healthy
+High Latency,5,5,356,0.5,Reachable,Allowed,Healthy
+High Latency,5,5,223,0.07,Reachable,Allowed,Healthy
+High Latency,5,5,433,0.95,Reachable,Allowed,Healthy
+High Latency,5,5,372,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,268,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,450,1.0,Reachable,Allowed,Healthy
+High Latency,5,5,284,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,314,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,211,0.21,Reachable,Allowed,Healthy
+High Latency,5,5,263,0.5,Reachable,Allowed,Healthy
+High Latency,5,5,219,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,330,0.88,Reachable,Allowed,Healthy
+High Latency,5,5,224,0.62,Reachable,Allowed,Healthy
+High Latency,5,5,210,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,413,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,480,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,278,0.47,Reachable,Allowed,Healthy
+High Latency,5,5,204,0.7,Reachable,Allowed,Healthy
+High Latency,5,5,251,0.42,Reachable,Allowed,Healthy
+High Latency,5,5,270,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,253,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,260,0.72,Reachable,Allowed,Healthy
+High Latency,5,5,254,0.11,Reachable,Allowed,Healthy
+High Latency,5,5,302,0.2,Reachable,Allowed,Healthy
+High Latency,5,5,303,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,351,0.7,Reachable,Allowed,Healthy
+High Latency,5,5,454,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,446,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,206,0.23,Reachable,Allowed,Healthy
+High Latency,5,5,493,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,246,0.15,Reachable,Allowed,Healthy
+High Latency,5,5,251,0.08,Reachable,Allowed,Healthy
+High Latency,5,5,433,0.64,Reachable,Allowed,Healthy
+High Latency,5,5,225,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,220,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,360,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,248,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,270,0.01,Reachable,Allowed,Healthy
+High Latency,5,5,383,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,337,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.37,Reachable,Allowed,Healthy
+High Latency,5,5,404,0.11,Reachable,Allowed,Healthy
+High Latency,5,5,397,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,285,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,230,0.13,Reachable,Allowed,Healthy
+High Latency,5,5,447,0.1,Reachable,Allowed,Healthy
+High Latency,5,5,292,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,383,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,266,0.03,Reachable,Allowed,Healthy
+High Latency,5,5,257,0.92,Reachable,Allowed,Healthy
+High Latency,5,5,232,0.44,Reachable,Allowed,Healthy
+High Latency,5,5,206,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,495,0.77,Reachable,Allowed,Healthy
+High Latency,5,5,373,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,248,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,397,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,485,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,280,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,453,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,451,0.07,Reachable,Allowed,Healthy
+High Latency,5,5,342,0.24,Reachable,Allowed,Healthy
+High Latency,5,5,481,0.51,Reachable,Allowed,Healthy
+High Latency,5,5,320,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,493,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,455,0.09,Reachable,Allowed,Healthy
+High Latency,5,5,454,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,406,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,481,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,355,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,433,0.56,Reachable,Allowed,Healthy
+High Latency,5,5,227,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,369,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,442,0.77,Reachable,Allowed,Healthy
+High Latency,5,5,258,0.72,Reachable,Allowed,Healthy
+High Latency,5,5,313,0.76,Reachable,Allowed,Healthy
+High Latency,5,5,349,0.34,Reachable,Allowed,Healthy
+High Latency,5,5,254,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,452,0.9,Reachable,Allowed,Healthy
+High Latency,5,5,409,0.82,Reachable,Allowed,Healthy
+High Latency,5,5,300,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,401,0.12,Reachable,Allowed,Healthy
+High Latency,5,5,297,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,412,0.11,Reachable,Allowed,Healthy
+High Latency,5,5,263,0.93,Reachable,Allowed,Healthy
+High Latency,5,5,458,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,483,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,447,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,290,0.78,Reachable,Allowed,Healthy
+High Latency,5,5,265,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,364,0.39,Reachable,Allowed,Healthy
+High Latency,5,5,414,0.88,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.92,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,268,0.45,Reachable,Allowed,Healthy
+High Latency,5,5,462,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,480,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,483,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,307,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,376,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,291,0.98,Reachable,Allowed,Healthy
+High Latency,5,5,365,0.54,Reachable,Allowed,Healthy
+High Latency,5,5,487,0.76,Reachable,Allowed,Healthy
+High Latency,5,5,413,0.58,Reachable,Allowed,Healthy
+High Latency,5,5,416,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,212,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,228,0.15,Reachable,Allowed,Healthy
+High Latency,5,5,282,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,274,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,351,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,216,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,252,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,487,0.87,Reachable,Allowed,Healthy
+High Latency,5,5,487,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,347,0.24,Reachable,Allowed,Healthy
+High Latency,5,5,398,0.93,Reachable,Allowed,Healthy
+High Latency,5,5,360,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,328,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,426,0.62,Reachable,Allowed,Healthy
+High Latency,5,5,388,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,300,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,290,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,288,0.19,Reachable,Allowed,Healthy
+High Latency,5,5,220,0.12,Reachable,Allowed,Healthy
+High Latency,5,5,335,0.28,Reachable,Allowed,Healthy
+High Latency,5,5,330,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,279,0.33,Reachable,Allowed,Healthy
+High Latency,5,5,365,0.15,Reachable,Allowed,Healthy
+High Latency,5,5,354,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,481,0.79,Reachable,Allowed,Healthy
+High Latency,5,5,362,0.07,Reachable,Allowed,Healthy
+High Latency,5,5,294,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,458,0.07,Reachable,Allowed,Healthy
+High Latency,5,5,474,0.42,Reachable,Allowed,Healthy
+High Latency,5,5,313,0.09,Reachable,Allowed,Healthy
+High Latency,5,5,369,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,471,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,204,1.0,Reachable,Allowed,Healthy
+High Latency,5,5,428,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,324,0.9,Reachable,Allowed,Healthy
+High Latency,5,5,364,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,258,0.92,Reachable,Allowed,Healthy
+High Latency,5,5,344,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,391,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,428,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,298,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,249,0.51,Reachable,Allowed,Healthy
+High Latency,5,5,475,0.97,Reachable,Allowed,Healthy
+High Latency,5,5,233,0.01,Reachable,Allowed,Healthy
+High Latency,5,5,309,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,305,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,422,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,236,0.82,Reachable,Allowed,Healthy
+High Latency,5,5,369,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,227,0.09,Reachable,Allowed,Healthy
+High Latency,5,5,485,0.79,Reachable,Allowed,Healthy
+High Latency,5,5,316,0.57,Reachable,Allowed,Healthy
+High Latency,5,5,430,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,361,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,260,0.39,Reachable,Allowed,Healthy
+High Latency,5,5,232,0.01,Reachable,Allowed,Healthy
+High Latency,5,5,237,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,254,0.93,Reachable,Allowed,Healthy
+High Latency,5,5,354,0.79,Reachable,Allowed,Healthy
+High Latency,5,5,424,0.09,Reachable,Allowed,Healthy
+High Latency,5,5,215,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,312,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,479,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,273,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,391,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,484,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.12,Reachable,Allowed,Healthy
+High Latency,5,5,475,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,356,0.95,Reachable,Allowed,Healthy
+High Latency,5,5,376,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,462,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,313,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,299,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,490,0.18,Reachable,Allowed,Healthy
+High Latency,5,5,481,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,237,0.64,Reachable,Allowed,Healthy
+High Latency,5,5,328,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,497,0.2,Reachable,Allowed,Healthy
+High Latency,5,5,382,0.95,Reachable,Allowed,Healthy
+High Latency,5,5,320,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,235,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,430,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,356,0.62,Reachable,Allowed,Healthy
+High Latency,5,5,490,0.15,Reachable,Allowed,Healthy
+High Latency,5,5,419,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,326,0.0,Reachable,Allowed,Healthy
+High Latency,5,5,423,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,268,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,436,0.88,Reachable,Allowed,Healthy
+High Latency,5,5,356,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,289,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,343,0.61,Reachable,Allowed,Healthy
+High Latency,5,5,300,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,239,0.73,Reachable,Allowed,Healthy
+High Latency,5,5,459,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,497,0.03,Reachable,Allowed,Healthy
+High Latency,5,5,308,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,478,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,276,0.47,Reachable,Allowed,Healthy
+High Latency,5,5,348,0.39,Reachable,Allowed,Healthy
+High Latency,5,5,461,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,457,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,284,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,281,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,489,0.57,Reachable,Allowed,Healthy
+High Latency,5,5,447,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,449,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,389,0.06,Reachable,Allowed,Healthy
+High Latency,5,5,305,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,384,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,432,0.47,Reachable,Allowed,Healthy
+High Latency,5,5,365,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,466,0.7,Reachable,Allowed,Healthy
+High Latency,5,5,334,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,289,0.54,Reachable,Allowed,Healthy
+High Latency,5,5,387,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,239,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,314,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,376,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,203,0.79,Reachable,Allowed,Healthy
+High Latency,5,5,425,0.88,Reachable,Allowed,Healthy
+High Latency,5,5,463,0.23,Reachable,Allowed,Healthy
+High Latency,5,5,276,0.28,Reachable,Allowed,Healthy
+High Latency,5,5,260,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,369,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,445,0.48,Reachable,Allowed,Healthy
+High Latency,5,5,282,0.21,Reachable,Allowed,Healthy
+High Latency,5,5,211,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,493,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,462,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,275,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,292,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,488,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,345,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,441,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,410,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,498,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,461,0.62,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,235,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,267,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,467,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,276,0.68,Reachable,Allowed,Healthy
+High Latency,5,5,443,0.1,Reachable,Allowed,Healthy
+High Latency,5,5,472,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,247,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,476,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,420,0.9,Reachable,Allowed,Healthy
+High Latency,5,5,222,0.42,Reachable,Allowed,Healthy
+High Latency,5,5,446,0.43,Reachable,Allowed,Healthy
+High Latency,5,5,494,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,330,0.43,Reachable,Allowed,Healthy
+High Latency,5,5,242,0.77,Reachable,Allowed,Healthy
+High Latency,5,5,478,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,260,0.58,Reachable,Allowed,Healthy
+High Latency,5,5,305,0.01,Reachable,Allowed,Healthy
+High Latency,5,5,254,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,499,0.43,Reachable,Allowed,Healthy
+High Latency,5,5,474,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.56,Reachable,Allowed,Healthy
+High Latency,5,5,411,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,447,0.78,Reachable,Allowed,Healthy
+High Latency,5,5,484,0.37,Reachable,Allowed,Healthy
+High Latency,5,5,357,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,403,0.34,Reachable,Allowed,Healthy
+High Latency,5,5,260,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,282,0.45,Reachable,Allowed,Healthy
+High Latency,5,5,405,0.21,Reachable,Allowed,Healthy
+High Latency,5,5,226,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,202,0.39,Reachable,Allowed,Healthy
+High Latency,5,5,441,0.82,Reachable,Allowed,Healthy
+High Latency,5,5,232,0.44,Reachable,Allowed,Healthy
+High Latency,5,5,240,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,396,0.04,Reachable,Allowed,Healthy
+High Latency,5,5,466,0.61,Reachable,Allowed,Healthy
+High Latency,5,5,229,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,424,0.64,Reachable,Allowed,Healthy
+High Latency,5,5,465,0.2,Reachable,Allowed,Healthy
+High Latency,5,5,461,0.19,Reachable,Allowed,Healthy
+High Latency,5,5,286,0.7,Reachable,Allowed,Healthy
+High Latency,5,5,200,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.09,Reachable,Allowed,Healthy
+High Latency,5,5,402,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,465,0.59,Reachable,Allowed,Healthy
+High Latency,5,5,235,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,486,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,299,0.61,Reachable,Allowed,Healthy
+High Latency,5,5,494,0.93,Reachable,Allowed,Healthy
+High Latency,5,5,408,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,237,0.11,Reachable,Allowed,Healthy
+High Latency,5,5,259,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,475,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,426,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,324,0.56,Reachable,Allowed,Healthy
+High Latency,5,5,434,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,214,0.9,Reachable,Allowed,Healthy
+High Latency,5,5,234,0.12,Reachable,Allowed,Healthy
+High Latency,5,5,312,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,411,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,204,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,247,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,291,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,311,0.31,Reachable,Allowed,Healthy
+High Latency,5,5,297,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,320,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,305,0.87,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.2,Reachable,Allowed,Healthy
+High Latency,5,5,254,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,452,0.92,Reachable,Allowed,Healthy
+High Latency,5,5,477,0.01,Reachable,Allowed,Healthy
+High Latency,5,5,390,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,494,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,461,0.49,Reachable,Allowed,Healthy
+High Latency,5,5,495,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,416,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,216,0.94,Reachable,Allowed,Healthy
+High Latency,5,5,289,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,465,0.98,Reachable,Allowed,Healthy
+High Latency,5,5,204,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,394,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,385,0.1,Reachable,Allowed,Healthy
+High Latency,5,5,295,0.86,Reachable,Allowed,Healthy
+High Latency,5,5,337,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.96,Reachable,Allowed,Healthy
+High Latency,5,5,417,0.18,Reachable,Allowed,Healthy
+High Latency,5,5,390,0.42,Reachable,Allowed,Healthy
+High Latency,5,5,343,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,267,0.18,Reachable,Allowed,Healthy
+High Latency,5,5,251,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,484,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,300,0.86,Reachable,Allowed,Healthy
+High Latency,5,5,276,0.8,Reachable,Allowed,Healthy
+High Latency,5,5,290,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,464,0.5,Reachable,Allowed,Healthy
+High Latency,5,5,449,0.72,Reachable,Allowed,Healthy
+High Latency,5,5,490,0.25,Reachable,Allowed,Healthy
+High Latency,5,5,283,0.4,Reachable,Allowed,Healthy
+High Latency,5,5,330,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,249,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,333,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,485,0.36,Reachable,Allowed,Healthy
+High Latency,5,5,410,0.34,Reachable,Allowed,Healthy
+High Latency,5,5,301,0.35,Reachable,Allowed,Healthy
+High Latency,5,5,475,0.58,Reachable,Allowed,Healthy
+High Latency,5,5,345,0.98,Reachable,Allowed,Healthy
+High Latency,5,5,461,0.33,Reachable,Allowed,Healthy
+High Latency,5,5,428,0.77,Reachable,Allowed,Healthy
+High Latency,5,5,346,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,274,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,372,0.64,Reachable,Allowed,Healthy
+High Latency,5,5,492,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,236,0.85,Reachable,Allowed,Healthy
+High Latency,5,5,316,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,349,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,402,0.61,Reachable,Allowed,Healthy
+High Latency,5,5,385,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,430,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,211,0.17,Reachable,Allowed,Healthy
+High Latency,5,5,328,0.73,Reachable,Allowed,Healthy
+High Latency,5,5,403,0.21,Reachable,Allowed,Healthy
+High Latency,5,5,442,0.1,Reachable,Allowed,Healthy
+High Latency,5,5,403,0.05,Reachable,Allowed,Healthy
+High Latency,5,5,242,0.76,Reachable,Allowed,Healthy
+High Latency,5,5,279,0.26,Reachable,Allowed,Healthy
+High Latency,5,5,399,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,345,0.23,Reachable,Allowed,Healthy
+High Latency,5,5,267,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,214,0.84,Reachable,Allowed,Healthy
+High Latency,5,5,366,0.66,Reachable,Allowed,Healthy
+High Latency,5,5,476,0.47,Reachable,Allowed,Healthy
+High Latency,5,5,269,0.55,Reachable,Allowed,Healthy
+High Latency,5,5,433,0.18,Reachable,Allowed,Healthy
+High Latency,5,5,488,0.75,Reachable,Allowed,Healthy
+High Latency,5,5,473,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,446,0.91,Reachable,Allowed,Healthy
+High Latency,5,5,245,0.23,Reachable,Allowed,Healthy
+High Latency,5,5,411,0.31,Reachable,Allowed,Healthy
+High Latency,5,5,205,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,269,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,473,0.29,Reachable,Allowed,Healthy
+High Latency,5,5,451,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,420,0.3,Reachable,Allowed,Healthy
+High Latency,5,5,203,0.6,Reachable,Allowed,Healthy
+High Latency,5,5,410,0.37,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.44,Reachable,Allowed,Healthy
+High Latency,5,5,399,0.71,Reachable,Allowed,Healthy
+High Latency,5,5,240,0.22,Reachable,Allowed,Healthy
+High Latency,5,5,464,0.63,Reachable,Allowed,Healthy
+High Latency,5,5,339,0.81,Reachable,Allowed,Healthy
+High Latency,5,5,472,0.65,Reachable,Allowed,Healthy
+High Latency,5,5,235,0.41,Reachable,Allowed,Healthy
+High Latency,5,5,256,0.14,Reachable,Allowed,Healthy
+High Latency,5,5,431,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,451,0.7,Reachable,Allowed,Healthy
+High Latency,5,5,277,0.32,Reachable,Allowed,Healthy
+High Latency,5,5,211,0.97,Reachable,Allowed,Healthy
+High Latency,5,5,344,0.97,Reachable,Allowed,Healthy
+High Latency,5,5,424,0.13,Reachable,Allowed,Healthy
+High Latency,5,5,277,0.23,Reachable,Allowed,Healthy
+High Latency,5,5,375,0.49,Reachable,Allowed,Healthy
+High Latency,5,5,455,0.31,Reachable,Allowed,Healthy
+High Latency,5,5,216,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,274,0.08,Reachable,Allowed,Healthy
+High Latency,5,5,400,0.27,Reachable,Allowed,Healthy
+High Latency,5,5,292,0.54,Reachable,Allowed,Healthy
+High Latency,5,5,328,0.9,Reachable,Allowed,Healthy
+High Latency,5,5,262,0.83,Reachable,Allowed,Healthy
+High Latency,5,5,426,0.38,Reachable,Allowed,Healthy
+High Latency,5,5,217,0.74,Reachable,Allowed,Healthy
+High Latency,5,5,248,0.46,Reachable,Allowed,Healthy
+High Latency,5,5,306,0.67,Reachable,Allowed,Healthy
+High Latency,5,5,359,0.39,Reachable,Allowed,Healthy
+High Latency,5,5,221,0.16,Reachable,Allowed,Healthy
+High Latency,5,5,329,0.52,Reachable,Allowed,Healthy
+High Latency,5,5,301,0.64,Reachable,Allowed,Healthy
+High Latency,5,5,311,0.89,Reachable,Allowed,Healthy
+High Latency,5,5,422,0.24,Reachable,Allowed,Healthy
+High Latency,5,5,341,0.02,Reachable,Allowed,Healthy
+High Latency,5,5,324,0.12,Reachable,Allowed,Healthy
+High Latency,5,5,497,0.97,Reachable,Allowed,Healthy
+High Latency,5,5,279,0.69,Reachable,Allowed,Healthy
+High Latency,5,5,327,0.77,Reachable,Allowed,Healthy
+High Latency,5,5,373,0.5,Reachable,Allowed,Healthy
+High Latency,5,5,382,0.06,Reachable,Allowed,Healthy
+Firewall Block,5,5,30,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.49,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.98,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.76,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.72,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.54,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.37,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.78,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.86,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.24,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.41,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.26,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.47,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.06,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.74,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.53,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.83,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.94,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.1,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.53,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.36,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.7,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.4,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,1.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.55,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.76,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.83,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.55,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.36,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.98,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.02,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.99,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.02,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.23,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.49,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.6,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.35,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.75,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.78,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.05,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.5,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.97,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.58,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.13,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.48,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.55,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.43,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.76,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.4,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,1.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.25,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.27,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.32,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.59,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.99,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.24,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.31,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.02,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.74,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.75,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.48,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.7,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.06,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.27,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.65,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.86,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.39,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.51,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.5,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.3,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.39,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.02,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.36,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.24,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.28,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.63,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.94,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.23,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.58,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.86,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,1.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.95,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.96,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.44,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.03,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.6,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.08,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.13,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.47,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.37,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.49,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.03,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.76,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.4,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.72,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.59,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.64,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.98,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.4,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.94,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.32,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.25,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.72,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.63,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.12,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.96,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.86,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.81,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.08,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.28,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.05,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.06,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.04,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.67,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.3,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.05,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.99,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.67,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.75,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.37,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.12,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.53,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.48,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.43,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.26,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,1.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.49,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.0,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.74,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.8,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.41,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.35,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.25,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.31,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.55,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.34,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.83,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.65,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.78,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.8,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.28,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.34,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.63,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.86,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.41,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.88,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.78,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.91,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.51,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.9,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.73,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.31,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.68,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.12,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.47,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.1,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.02,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.64,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.32,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.32,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.67,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.15,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.55,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.44,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.03,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.08,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.81,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.1,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.68,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.47,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.26,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.39,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.79,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.45,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.35,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.85,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.1,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.53,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.59,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.16,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.43,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.57,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.54,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.17,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.74,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.59,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.82,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.31,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.07,Blocked,Blocked,Healthy
+Firewall Block,5,5,13,0.69,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.77,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.33,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.22,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.81,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.53,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.62,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.2,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.3,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.92,Blocked,Blocked,Healthy
+Firewall Block,5,5,23,0.72,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.99,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.4,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.85,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.37,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.97,Blocked,Blocked,Healthy
+Firewall Block,5,5,10,0.7,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.87,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.43,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.39,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,22,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.21,Blocked,Blocked,Healthy
+Firewall Block,5,5,15,0.47,Blocked,Blocked,Healthy
+Firewall Block,5,5,16,0.56,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.84,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.29,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.13,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.65,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.72,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.66,Blocked,Blocked,Healthy
+Firewall Block,5,5,14,0.08,Blocked,Blocked,Healthy
+Firewall Block,5,5,30,0.81,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.89,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.93,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.18,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.42,Blocked,Blocked,Healthy
+Firewall Block,5,5,24,0.38,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.19,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.01,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.85,Blocked,Blocked,Healthy
+Firewall Block,5,5,17,0.71,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.41,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.58,Blocked,Blocked,Healthy
+Firewall Block,5,5,11,0.98,Blocked,Blocked,Healthy
+Firewall Block,5,5,28,0.48,Blocked,Blocked,Healthy
+Firewall Block,5,5,21,0.11,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.96,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.14,Blocked,Blocked,Healthy
+Firewall Block,5,5,26,0.98,Blocked,Blocked,Healthy
+Firewall Block,5,5,18,0.46,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.52,Blocked,Blocked,Healthy
+Firewall Block,5,5,29,0.09,Blocked,Blocked,Healthy
+Firewall Block,5,5,25,0.63,Blocked,Blocked,Healthy
+Firewall Block,5,5,12,0.68,Blocked,Blocked,Healthy
+Firewall Block,5,5,27,0.8,Blocked,Blocked,Healthy
+Firewall Block,5,5,19,0.61,Blocked,Blocked,Healthy
+Firewall Block,5,5,20,0.54,Blocked,Blocked,Healthy
+Application Failure,5,5,10,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.91,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.29,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.7,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.75,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.26,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.57,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.81,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.25,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.74,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.26,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.48,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.86,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.66,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.4,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.48,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.23,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.96,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.1,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.86,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.27,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.26,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.39,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.34,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.31,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.25,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.06,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.66,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.09,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.13,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.57,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.25,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.66,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.26,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,20,1.0,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.96,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.22,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.72,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.57,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.78,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.93,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.27,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.0,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.48,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.94,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.33,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.4,Reachable,Allowed,Failed
+Application Failure,5,5,30,1.0,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.09,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.85,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.55,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.66,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.7,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.63,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.44,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.06,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.97,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.34,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.41,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.81,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.23,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.13,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.63,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.82,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.82,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.8,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.06,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.43,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.32,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.55,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.7,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.93,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.13,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.71,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.52,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.63,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.56,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.36,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.51,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.5,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.29,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.25,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.81,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.92,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.07,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.72,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.58,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.23,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.33,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.87,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.45,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.72,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.36,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.06,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.58,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.86,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.41,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.59,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.74,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.25,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.58,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.99,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.39,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.45,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.36,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.86,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.87,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.63,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.0,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.07,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.43,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.7,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.79,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.62,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.74,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.51,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.62,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.56,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.56,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.87,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.75,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.32,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.5,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.83,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.71,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.62,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.19,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.09,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.96,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.11,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.5,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.52,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.97,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.93,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.74,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.29,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.83,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.58,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.13,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.23,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.97,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.62,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.71,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.57,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.26,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.21,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.92,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.93,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.65,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.97,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.34,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.4,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.45,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.33,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.68,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.19,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.94,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.4,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.87,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.22,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.74,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.8,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.21,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.99,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.99,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.93,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.91,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.71,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.29,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.83,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.22,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.96,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.47,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.42,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.91,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.99,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.58,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.44,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.63,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.97,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.02,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.16,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.88,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.36,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.27,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.64,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.05,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.53,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.51,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.6,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.83,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.27,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.1,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.01,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.28,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.41,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.1,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.5,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.8,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.61,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.85,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.7,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.42,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.92,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.14,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.52,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.17,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.22,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.13,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.79,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.59,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.04,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.78,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.21,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.03,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.85,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.35,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.78,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.24,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.07,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.22,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.96,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.9,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.0,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.92,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.85,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.37,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.19,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.21,Reachable,Allowed,Failed
+Application Failure,5,5,17,0.41,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.52,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.56,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.08,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.46,Reachable,Allowed,Failed
+Application Failure,5,5,19,0.69,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.23,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.29,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.19,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.89,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.94,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.18,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.67,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.44,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.4,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.98,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.06,Reachable,Allowed,Failed
+Application Failure,5,5,16,0.34,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.84,Reachable,Allowed,Failed
+Application Failure,5,5,22,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,23,0.73,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.76,Reachable,Allowed,Failed
+Application Failure,5,5,28,0.59,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.94,Reachable,Allowed,Failed
+Application Failure,5,5,21,0.48,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.95,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.51,Reachable,Allowed,Failed
+Application Failure,5,5,14,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.12,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.5,Reachable,Allowed,Failed
+Application Failure,5,5,30,0.94,Reachable,Allowed,Failed
+Application Failure,5,5,10,0.1,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.83,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.68,Reachable,Allowed,Failed
+Application Failure,5,5,15,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.15,Reachable,Allowed,Failed
+Application Failure,5,5,29,0.62,Reachable,Allowed,Failed
+Application Failure,5,5,12,0.66,Reachable,Allowed,Failed
+Application Failure,5,5,26,0.77,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.2,Reachable,Allowed,Failed
+Application Failure,5,5,25,0.49,Reachable,Allowed,Failed
+Application Failure,5,5,18,0.54,Reachable,Allowed,Failed
+Application Failure,5,5,27,0.55,Reachable,Allowed,Failed
+Application Failure,5,5,11,0.99,Reachable,Allowed,Failed
+Application Failure,5,5,13,0.38,Reachable,Allowed,Failed
+Application Failure,5,5,20,0.85,Reachable,Allowed,Failed
+Application Failure,5,5,24,0.46,Reachable,Allowed,Failed
