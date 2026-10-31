@@ -1,454 +1,280 @@
+from pathlib import Path
+import sys
 
-import streamlit as st
-import pandas as pd
 import joblib
+import pandas as pd
+import streamlit as st
 
-from network_simulator import FAULTS, simulate_experiment
-from topology_analyzer import rank_suspect_links
+BASE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR))
+
+from diagnosis import diagnose
 from evidence_fusion import fuse_diagnosis
+from network_simulator import FAULTS, LINKS, NODES, simulate_experiment
+from topology_analyzer import rank_suspect_links
 
-
-# --------------------------------------------------
-# 1. PAGE CONFIGURATION
-# --------------------------------------------------
 
 st.set_page_config(
-    page_title="TRACE | Network Fault Localisation",
-    page_icon="🔎",
-    layout="wide"
+    page_title="TRACE | Fault localisation",
+    page_icon="◈",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
 
-st.title("🔎 TRACE")
-st.subheader("Evidence-Based Network Fault Localisation")
-
-st.caption(
-    "Topology-aware Root-cause Analysis with Correlated Evidence"
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+    :root { --ink:#eaf0f6; --muted:#8da0b3; --line:#243546; --panel:#101c28; --mint:#65e0bd; --blue:#72b7ff; --red:#ff7777; }
+    html, body, [class*="css"] { font-family:'Manrope',sans-serif; }
+    .stApp { background: radial-gradient(ellipse at 75% -12%, #183447 0, #0a131d 42%, #081019 100%); color:var(--ink); }
+    [data-testid="stSidebar"] { background:#0b151f; border-right:1px solid var(--line); }
+    [data-testid="stSidebar"] * { color:var(--ink); }
+    h1,h2,h3 { letter-spacing:-.035em; color:#f2f6fa; }
+    .hero { padding:1.2rem 0 1rem; border-bottom:1px solid var(--line); margin-bottom:1.2rem; }
+    .eyebrow { color:var(--mint); font:500 .72rem 'DM Mono',monospace; letter-spacing:.14em; text-transform:uppercase; }
+    .hero-title { font-size:2.35rem; line-height:1.08; font-weight:800; margin:.3rem 0; }
+    .hero-sub { color:var(--muted); font-size:.98rem; }
+    .panel { background:linear-gradient(145deg,rgba(19,33,47,.96),rgba(13,24,35,.96)); border:1px solid var(--line); border-radius:14px; padding:1rem 1.15rem; }
+    .kicker { color:var(--muted); font:500 .68rem 'DM Mono',monospace; letter-spacing:.1em; text-transform:uppercase; }
+    .big { color:#f3f7fb; font-size:1.35rem; font-weight:750; margin-top:.25rem; }
+    .small { color:var(--muted); font-size:.8rem; margin-top:.15rem; }
+    .tag { display:inline-block; border:1px solid #315445; color:var(--mint); background:#10251f; border-radius:99px; padding:.22rem .6rem; font:500 .7rem 'DM Mono',monospace; }
+    .evidence { border-left:2px solid var(--mint); background:#11221f; padding:.62rem .8rem; border-radius:0 8px 8px 0; margin:.45rem 0; color:#d7e9e2; }
+    .contradiction { border-left:2px solid #e5ad60; background:#261f15; padding:.62rem .8rem; border-radius:0 8px 8px 0; margin:.45rem 0; color:#f0dfc2; }
+    .muted { color:var(--muted); }
+    div[data-testid="stMetric"] { background:rgba(16,28,40,.9); border:1px solid var(--line); padding:.75rem .9rem; border-radius:12px; }
+    div[data-testid="stMetricLabel"] { color:var(--muted); }
+    div[data-testid="stMetricValue"] { color:#f2f6fa; }
+    .stButton button[kind="primary"] { background:#62d9b5; color:#07140f; border:0; font-weight:800; border-radius:9px; }
+    .stButton button { border-radius:9px; }
+    [data-testid="stDataFrame"] { border:1px solid var(--line); border-radius:10px; }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
-st.info(
-    "Prototype mode: network measurements are simulated. "
-    "This dashboard does not monitor a live network."
-)
-
-
-# --------------------------------------------------
-# 2. LOAD MACHINE LEARNING MODEL
-# --------------------------------------------------
 
 @st.cache_resource
-def load_model():
-    saved = joblib.load("data/trace_model.pkl")
-
+def load_assets():
+    saved = joblib.load(BASE_DIR / "trace_model.pkl")
     model = saved["model"]
-    feature_names = saved["features"]
-
-    training_data = pd.read_csv("data/network_dataset.csv")
-
-    training_features = pd.get_dummies(
-        training_data.drop(columns=["fault"]),
-        dtype=int
-    )
-
-    medians = training_features.median()
-
-    return model, feature_names, medians
+    features = saved["features"]
+    training = pd.read_csv(BASE_DIR / "network_dataset.csv")
+    encoded = pd.get_dummies(training.drop(columns=["fault"]), dtype=int)
+    return model, features, encoded.median()
 
 
-model, feature_names, medians = load_model()
+model, feature_names, medians = load_assets()
 
 
-# --------------------------------------------------
-# 3. SIDEBAR
-# --------------------------------------------------
+def run_diagnosis(scenario):
+    experiment = simulate_experiment(scenario)
+    evidence = experiment["evidence"]
+    x = pd.get_dummies(pd.DataFrame([evidence]), dtype=int)
+    x = x.reindex(columns=feature_names, fill_value=0).fillna(medians)
+    prediction = model.predict(x)[0]
+    probs = model.predict_proba(x)[0]
+    ranked = sorted(zip(model.classes_, probs), key=lambda pair: pair[1], reverse=True)
+    links = rank_suspect_links(experiment["path_observations"])
+    report = fuse_diagnosis(prediction, ranked, evidence, links)
+    rule_results = diagnose(evidence)
+    # The deterministic rule baseline only fires on explicit threshold matches.
+    rule_fault = rule_results[0]["fault"] if rule_results else "Normal"
+    support = list(report["supporting_evidence"])
+    contradictions = []
+    expected = {
+        "Link Failure": evidence["connectivity"] == "Unreachable",
+        "Packet Loss": evidence["packet_loss_pct"] >= 10,
+        "High Latency": evidence["latency_ms"] >= 100,
+        "Firewall Block": evidence["firewall_status"] == "Blocked",
+        "Application Failure": evidence["application_status"] == "Failed",
+    }
+    if prediction != "Normal" and not expected.get(prediction, False):
+        contradictions.append(f"The model's {prediction} prediction lacks its expected direct indicator.")
+    if prediction == "Normal" and support:
+        contradictions.append("The model predicts Normal despite abnormal measurements.")
+    if prediction != rule_fault:
+        contradictions.append(f"Rule baseline predicts {rule_fault}; Random Forest predicts {prediction}.")
+    if scenario != "Normal" and prediction == "Normal":
+        contradictions.append("Injected scenario and predicted class disagree; inspect the evidence before acting.")
+    return {
+        "scenario": scenario,
+        "experiment": experiment,
+        "evidence": evidence,
+        "prediction": prediction,
+        "ranked": ranked,
+        "links": links,
+        "report": report,
+        "rule_fault": rule_fault,
+        "support": support,
+        "contradictions": contradictions,
+    }
 
-st.sidebar.title("TRACE Controls")
-
-scenario = st.sidebar.selectbox(
-    "Select Network Scenario",
-    FAULTS
-)
-
-run_button = st.sidebar.button(
-    "Run Network Diagnosis",
-    type="primary",
-    use_container_width=True
-)
-
-st.sidebar.divider()
-
-st.sidebar.markdown("### Network Configuration")
-st.sidebar.write("Network Nodes: 5")
-st.sidebar.write("Network Links: 5")
-st.sidebar.write("ML Algorithm: Random Forest")
-st.sidebar.write("Topology Analysis: BFS-based")
-
-
-# --------------------------------------------------
-# 4. EXPERIMENT HISTORY
-# --------------------------------------------------
 
 if "history" not in st.session_state:
     st.session_state.history = []
+if "latest_result" not in st.session_state:
+    st.session_state.latest_result = None
 
 
-# --------------------------------------------------
-# 5. RUN DIAGNOSIS
-# --------------------------------------------------
-
-if run_button:
-
-    # Generate correlated experiment
-    experiment = simulate_experiment(scenario)
-
-    evidence = experiment["evidence"]
-    observations = experiment["path_observations"]
-
-    # Prepare ML input
-    input_df = pd.DataFrame([evidence])
-
-    X = pd.get_dummies(
-        input_df,
-        dtype=int
-    )
-
-    X = X.reindex(
-        columns=feature_names,
-        fill_value=0
-    )
-
-    X = X.fillna(medians)
-
-    # ML prediction
-    prediction = model.predict(X)[0]
-
-    probabilities = model.predict_proba(X)[0]
-
-    ranked_faults = sorted(
-        zip(model.classes_, probabilities),
-        key=lambda item: item[1],
-        reverse=True
-    )
-
-    # Topology analysis
-    link_results = rank_suspect_links(observations)
-
-    # Evidence fusion
-    final_report = fuse_diagnosis(
-        prediction,
-        ranked_faults,
-        evidence,
-        link_results
-    )
-
-    # Save latest experiment
-    st.session_state.latest_result = {
-        "scenario": scenario,
-        "prediction": prediction,
-        "probability": float(ranked_faults[0][1]),
-        "evidence": evidence,
-        "experiment": experiment,
-        "links": link_results,
-        "report": final_report
-    }
-
-    # Save experiment history
-    st.session_state.history.insert(
-        0,
-        {
+with st.sidebar:
+    st.markdown("### ◈ TRACE")
+    st.caption("Topology-aware root-cause analysis")
+    st.markdown("---")
+    scenario = st.selectbox("Fault injection scenario", FAULTS, index=0)
+    run_clicked = st.button("Run diagnosis", type="primary", use_container_width=True)
+    if run_clicked:
+        result = run_diagnosis(scenario)
+        st.session_state.latest_result = result
+        st.session_state.history.insert(0, {
             "Scenario": scenario,
-            "Prediction": prediction,
-            "Probability": f"{ranked_faults[0][1]:.2%}"
-        }
-    )
+            "Model result": result["prediction"],
+            "Model probability": f"{result['ranked'][0][1]:.1%}",
+            "Location": "-".join(result["experiment"]["fault_location"]) if isinstance(result["experiment"]["fault_location"], tuple) else result["experiment"]["fault_location"] or "—",
+        })
+    st.markdown("---")
+    st.markdown("**Testbed** · 5 nodes · 5 links")
+    st.markdown("**Engines** · Rules + Random Forest")
+    st.markdown("**Evidence** · Measurements + topology")
+    st.caption("Simulation only · no live network telemetry")
 
 
-# --------------------------------------------------
-# 6. DISPLAY DASHBOARD
-# --------------------------------------------------
+st.markdown(
+    '<div class="hero"><div class="eyebrow">AIORI-3 · PS-035</div>'
+    '<div class="hero-title">TRACE <span style="color:#65e0bd">/</span> Fault intelligence</div>'
+    '<div class="hero-sub">Correlate network symptoms with topology to explain where a fault may have started.</div></div>',
+    unsafe_allow_html=True,
+)
+st.info("This prototype generates controlled synthetic experiments. Results demonstrate the diagnosis workflow; they do not represent a live network or calibrated operational confidence.")
 
-if "latest_result" in st.session_state:
+overview_tab, diagnosis_tab, evidence_tab, evaluation_tab = st.tabs(["Network overview", "Diagnosis", "Evidence explorer", "Evaluation"])
 
+with overview_tab:
+    top = st.columns([1.4, 1, 1, 1])
+    top[0].markdown("### Five-node testbed")
+    top[1].metric("Nodes", len(NODES))
+    top[2].metric("Links", len(LINKS))
+    top[3].metric("Fault scenarios", len(FAULTS) - 1)
+    st.caption("Reference topology used by the simulator and BFS path analyser.")
+    link_scores = {}
+    if st.session_state.latest_result:
+        link_scores = {row["link"]: row for row in st.session_state.latest_result["links"]}
+    graph = 'graph TRACE { layout=neato; bgcolor="transparent"; node [shape=circle,style=filled,fillcolor="#17364a",fontcolor="#eaf0f6",color="#65e0bd",penwidth=2,width=.72,height=.72,fontname="Arial"]; edge [color="#476073",penwidth=2];'
+    for source, destination in LINKS:
+        key = "-".join(sorted((source, destination)))
+        if key in link_scores:
+            graph += f' "{source}" -- "{destination}" [color="#ff7777", penwidth=4, label="suspect"];'
+        else:
+            graph += f' "{source}" -- "{destination}";'
+    graph += " }"
+    st.graphviz_chart(graph, use_container_width=True)
+    if link_scores:
+        st.caption("Red links are ranked as suspect from path observations. Compare them with the injected location in the Diagnosis tab.")
+    st.markdown("#### Diagnosis pipeline")
+    stages = st.columns(5)
+    for col, (number, label, detail) in zip(stages, [
+        ("01", "Inject", "Controlled scenario"), ("02", "Observe", "Synthetic telemetry"),
+        ("03", "Correlate", "Paths + symptoms"), ("04", "Rank", "Rules + Random Forest"),
+        ("05", "Explain", "Evidence + caveats"),
+    ]):
+        with col:
+            st.markdown(f'<div class="panel"><div class="eyebrow">{number}</div><b>{label}</b><div class="small">{detail}</div></div>', unsafe_allow_html=True)
+
+with diagnosis_tab:
     result = st.session_state.latest_result
-
-    evidence = result["evidence"]
-    prediction = result["prediction"]
-    report = result["report"]
-    link_results = result["links"]
-    experiment = result["experiment"]
-
-    st.success("Network diagnosis completed!")
-
-    # ----------------------------------------------
-    # FINAL DIAGNOSIS
-    # ----------------------------------------------
-
-    st.markdown("## Final Diagnosis")
-
-    st.subheader(report["diagnosis"])
-
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric(
-        "Detected Fault",
-        prediction
-    )
-
-    col2.metric(
-        "Model Probability",
-        f"{report['model_probability']:.2%}"
-    )
-
-    col3.metric(
-        "Suspected Links",
-        len(report["suspected_links"])
-    )
-
-    st.divider()
-
-    # ----------------------------------------------
-    # NETWORK METRICS
-    # ----------------------------------------------
-
-    st.markdown("## Network Monitoring")
-
-    c1, c2, c3, c4 = st.columns(4)
-
-    c1.metric(
-        "Latency",
-        f"{evidence['latency_ms']} ms"
-    )
-
-    c2.metric(
-        "Packet Loss",
-        f"{evidence['packet_loss_pct']}%"
-    )
-
-    c3.metric(
-        "Connectivity",
-        evidence["connectivity"]
-    )
-
-    c4.metric(
-        "Network Nodes",
-        evidence["nodes"]
-    )
-
-    c1, c2, c3 = st.columns(3)
-
-    c1.write(
-        f"**Firewall:** {evidence['firewall_status']}"
-    )
-
-    c2.write(
-        f"**Application:** {evidence['application_status']}"
-    )
-
-    c3.write(
-        f"**Injected Fault:** {experiment['fault_location']}"
-    )
-
-    st.divider()
-
-    # ----------------------------------------------
-    # NETWORK TOPOLOGY
-    # ----------------------------------------------
-
-    st.markdown("## Network Topology")
-
-    st.caption(
-        "Red links indicate the highest-ranked suspected link. "
-        "Other links are displayed in grey."
-    )
-
-    suspected = set()
-
-    for link in report["suspected_links"]:
-        suspected.add(link["link"])
-
-    graph = """
-    graph TRACE {
-        layout=neato;
-        bgcolor="transparent";
-        node [
-            shape=circle,
-            style=filled,
-            fillcolor="#24496B",
-            fontcolor="white",
-            color="#8AA5BE",
-            penwidth=2,
-            width=0.65,
-            height=0.65
-        ];
-
-        edge [
-            color="#8494A7",
-            penwidth=2
-        ];
-
-        A -- B;
-        B -- C;
-        B -- D;
-        C -- E;
-        D -- E;
-    """
-
-    edges = [
-        ("A", "B"),
-        ("B", "C"),
-        ("B", "D"),
-        ("C", "E"),
-        ("D", "E")
-    ]
-
-    for source, destination in edges:
-
-        link_name = "-".join(sorted([source, destination]))
-
-        if link_name in suspected:
-            graph += (
-                f'\n"{source}" -- "{destination}" '
-                '[color="#E05252", penwidth=5];'
-            )
-
-    graph += "\n}"
-
-    st.graphviz_chart(
-        graph,
-        use_container_width=True
-    )
-
-    if report["suspected_links"]:
-        st.warning(
-            "Potential network fault location identified."
-        )
+    if result is None:
+        st.markdown("### Ready for a controlled run")
+        st.write("Choose a scenario in the left panel and select **Run diagnosis**. TRACE will generate measurements, rank candidate causes, and explain which evidence supports the result.")
+        st.caption("No experiment has been run in this session yet.")
     else:
-        st.info(
-            "No suspected faulty links identified in this experiment."
-        )
+        report, evidence = result["report"], result["evidence"]
+        st.markdown("### Root-cause assessment")
+        headline = st.columns([2, 1, 1, 1])
+        headline[0].markdown(f'<div class="panel"><div class="kicker">{report["diagnosis"]}</div><div class="big">{result["prediction"]}</div><div class="small">Scenario injected: {result["scenario"]}</div></div>', unsafe_allow_html=True)
+        headline[1].metric("Model probability", f"{result['ranked'][0][1]:.1%}")
+        headline[2].metric("Rule baseline", result["rule_fault"])
+        loc = result["experiment"]["fault_location"]
+        headline[3].metric("Injected location", "-".join(loc) if isinstance(loc, tuple) else loc or "None")
+        st.caption("Model probability is the Random Forest output for this synthetic sample. It is not calibrated diagnostic confidence.")
+        metric_cols = st.columns(4)
+        metric_cols[0].metric("Reachability", evidence["connectivity"])
+        metric_cols[1].metric("Packet loss", f"{evidence['packet_loss_pct']}%")
+        metric_cols[2].metric("Latency", f"{evidence['latency_ms']} ms")
+        metric_cols[3].metric("Service", evidence["application_status"])
+        left, right = st.columns([1.15, .85])
+        with left:
+            st.markdown("#### Candidate ranking")
+            ranked_df = pd.DataFrame(result["ranked"], columns=["Candidate", "Model probability"])
+            ranked_df["Model probability"] = (ranked_df["Model probability"] * 100).round(1)
+            st.bar_chart(ranked_df.set_index("Candidate"), horizontal=True)
+            st.dataframe(ranked_df.rename(columns={"Model probability": "Probability (%)"}), hide_index=True, use_container_width=True)
+        with right:
+            st.markdown("#### Link localisation")
+            if result["links"]:
+                st.dataframe(pd.DataFrame(result["links"]), hide_index=True, use_container_width=True)
+                top_link = result["links"][0]["link"]
+                st.caption(f"Highest topology suspicion: **{top_link}**. The injected location is shown separately for comparison.")
+            else:
+                st.success("No failed or degraded path evidence in this run.")
+        st.markdown("#### Why TRACE reached this result")
+        explain_cols = st.columns(2)
+        with explain_cols[0]:
+            st.markdown("**Supporting observations**")
+            if result["support"]:
+                for item in result["support"]:
+                    st.markdown(f'<div class="evidence">✓ &nbsp;{item}</div>', unsafe_allow_html=True)
+            else:
+                st.caption("No thresholded abnormal measurement was found.")
+        with explain_cols[1]:
+            st.markdown("**Conflicts and uncertainty**")
+            if result["contradictions"] or report["warnings"]:
+                for item in dict.fromkeys(result["contradictions"] + report["warnings"]):
+                    st.markdown(f'<div class="contradiction">! &nbsp;{item}</div>', unsafe_allow_html=True)
+            else:
+                st.caption("No explicit conflict was identified by the current checks.")
 
-    st.divider()
-
-    # ----------------------------------------------
-    # ML PREDICTION DETAILS
-    # ----------------------------------------------
-
-    st.markdown("## Machine Learning Analysis")
-
-    probability_df = pd.DataFrame(
-        ranked_faults,
-        columns=["Fault", "Probability"]
-    )
-
-    probability_df["Probability"] = (
-        probability_df["Probability"] * 100
-    )
-
-    probability_df = probability_df.set_index("Fault")
-
-    st.bar_chart(
-        probability_df,
-        y="Probability"
-    )
-
-    # ----------------------------------------------
-    # TOPOLOGY RESULTS
-    # ----------------------------------------------
-
-    st.markdown("## Topology Analysis")
-
-    if link_results:
-
-        link_df = pd.DataFrame(link_results)
-
-        st.dataframe(
-            link_df,
-            use_container_width=True,
-            hide_index=True
-        )
-
+with evidence_tab:
+    result = st.session_state.latest_result
+    if result is None:
+        st.caption("Run a scenario to inspect its generated measurements and path observations.")
     else:
-        st.info("No failed paths detected.")
+        st.markdown("### Collected evidence")
+        e = result["evidence"]
+        c1, c2, c3 = st.columns(3)
+        c1.markdown("**Network measurements**")
+        c1.dataframe(pd.DataFrame([{"Signal": k, "Observed value": v} for k, v in e.items() if k not in ("fault", "nodes", "links")]), hide_index=True, use_container_width=True)
+        c2.markdown("**Link probes**")
+        c2.dataframe(pd.DataFrame(result["experiment"]["path_observations"]), hide_index=True, use_container_width=True)
+        c3.markdown("**Node health**")
+        c3.dataframe(pd.DataFrame(result["experiment"]["node_observations"]), hide_index=True, use_container_width=True)
+        st.caption("The simulator creates generated observations for each physical link and node. Syslog ingestion and live ICMP probing are not implemented in this prototype; production use would need timestamped collectors for both.")
 
-    # ----------------------------------------------
-    # SUPPORTING EVIDENCE
-    # ----------------------------------------------
-
-    st.markdown("## Supporting Evidence")
-
-    if report["supporting_evidence"]:
-
-        for item in report["supporting_evidence"]:
-            st.write("✅", item)
-
+with evaluation_tab:
+    st.markdown("### Model evaluation snapshot")
+    eval_path = BASE_DIR / "evaluation_results.csv"
+    if eval_path.exists():
+        outcomes = pd.read_csv(eval_path)
+        accuracy = (outcomes["actual_fault"] == outcomes["predicted_fault"]).mean()
+        top1, count, scope = st.columns(3)
+        top1.metric("Top-1 accuracy", f"{accuracy:.1%}")
+        count.metric("Recorded experiments", len(outcomes))
+        scope.metric("Evaluation type", "Synthetic simulation")
+        st.caption("This CSV is generated from simulator scenarios. It is a prototype evaluation, not an independent field validation. Top-3 accuracy is not recorded in the current evaluation file.")
+        by_class = (outcomes.assign(correct=outcomes["actual_fault"] == outcomes["predicted_fault"])
+                    .groupby("actual_fault", as_index=False)["correct"].mean()
+                    .rename(columns={"actual_fault": "Scenario", "correct": "Top-1 accuracy"}))
+        by_class["Top-1 accuracy"] *= 100
+        st.markdown("#### Accuracy by injected scenario")
+        st.bar_chart(by_class.set_index("Scenario"))
+        with st.expander("Recorded predictions"):
+            st.dataframe(outcomes, hide_index=True, use_container_width=True)
     else:
-        st.write("No abnormal evidence identified.")
-
-    # ----------------------------------------------
-    # WARNINGS
-    # ----------------------------------------------
-
-    st.markdown("## Diagnostic Warnings")
-
-    if report["warnings"]:
-
-        for warning in report["warnings"]:
-            st.warning(warning)
-
-    else:
-        st.success("No diagnostic warnings.")
-
-    # ----------------------------------------------
-    # RAW EVIDENCE
-    # ----------------------------------------------
-
-    with st.expander("View Raw Diagnostic Evidence"):
-
-        st.json(evidence)
-
-        st.markdown("### Path Observations")
-
-        st.json(experiment["path_observations"])
-
-
-else:
-
-    st.markdown("## Welcome to TRACE")
-
-    st.write(
-        "Select a network scenario from the sidebar "
-        "and click Run Network Diagnosis to begin."
-    )
-
-    st.info(
-        "Your diagnostic results, network topology "
-        "and supporting evidence will appear here."
-    )
-
-
-# --------------------------------------------------
-# 7. EXPERIMENT HISTORY
-# --------------------------------------------------
-
-st.divider()
-
-st.markdown("## Experiment History")
+        st.warning("No evaluation_results.csv found. Run data/evaluation.py to generate the evaluation snapshot.")
 
 if st.session_state.history:
-
-    history_df = pd.DataFrame(
-        st.session_state.history
-    )
-
-    st.dataframe(
-        history_df,
-        use_container_width=True,
-        hide_index=True
-    )
-
-    if st.button("Clear Experiment History"):
-        st.session_state.history = []
-        st.rerun()
-
-else:
-
-    st.caption("No experiments have been recorded yet.")
+    with st.expander("Recent experiment history", expanded=False):
+        st.dataframe(pd.DataFrame(st.session_state.history), hide_index=True, use_container_width=True)
+        if st.button("Clear history"):
+            st.session_state.history = []
+            st.rerun()

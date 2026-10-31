@@ -11,3 +11,18 @@ This repository will contain the code and resources for the AIORI-3 hackathon th
 **Team Code:** A3-PS035-TC026
 
 **Video Presentation:** [Watch our team introduction and project presentation](https://youtu.be/FABaUDOUCnQ)
+
+## Run the TRACE dashboard
+
+The dashboard runs a controlled, synthetic five-node network experiment. It does not monitor a live network.
+
+From this repository directory, install the data dependencies and start Streamlit:
+
+```powershell
+python -m pip install -r data/requirements.txt
+python -m streamlit run data/app.py
+```
+
+Open the local URL printed by Streamlit (usually `http://localhost:8501`). Choose a fault scenario in the sidebar and select **Run diagnosis**. The dashboard shows the Random Forest ranking, deterministic rule baseline, topology-based suspect links, supporting and conflicting evidence, and the available synthetic evaluation results.
+
+The saved model and dataset are loaded relative to `data/app.py`, so the dashboard can be launched from the repository root without changing directories.
